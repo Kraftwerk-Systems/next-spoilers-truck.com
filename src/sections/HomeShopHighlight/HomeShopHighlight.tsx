@@ -6,6 +6,9 @@ import ShopLink from "@/components/ShopLink/ShopLink";
 import Slick from "@/components/Slick/Slick";
 import brands from "@/data/brands";
 import { useTranslations } from "next-intl";
+import highlightBg from "/public/img/bg/section-shop-highlight-bg.webp";
+import shopHero from "/public/img/bg/shop-hero.webp";
+import Image from "next/image";
 
 import { Link } from "@/navigation";
 
@@ -26,7 +29,7 @@ export default function HomeShopHighlight({ locale }: { locale: string }) {
     <section className="HomeShopHighlight" id="shop-highlights">
       <div className="HomeShopHighlight__image-wrapper">
         <div className="HomeShopHighlight__image-container">
-          <img src="/img/bg/section-shop-highlight-bg.webp" alt="Car Trade Kft." className="HomeShopHighlight__image" />
+          <Image src={highlightBg} alt="Car Trade Kft." className="HomeShopHighlight__image" />
         </div>
         <div className="HomeShopHighlight__ornament HomeShopHighlight__ornament--1"></div>
         <div className="HomeShopHighlight__ornament HomeShopHighlight__ornament--2"></div>
@@ -50,11 +53,7 @@ export default function HomeShopHighlight({ locale }: { locale: string }) {
         </div>
         <div className="HomeShopHighlight__link-group">
           <Link href={`https://shop.spoilers-truck.com/${locale}`} className="HomeShopHighlight__link-image-wrapper">
-            <img
-              src="/img/bg/shop-hero.webp"
-              alt={t("shopHighlight.image-alt")}
-              className="HomeShopHighlight__link-image"
-            />
+            <Image src={shopHero} alt={t("shopHighlight.image-alt")} className="HomeShopHighlight__link-image" />
           </Link>
 
           <ShopLink title="shop.spoilers-truck.com" url="https://shop.spoilers-truck.com" />
