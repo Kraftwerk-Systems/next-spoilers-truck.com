@@ -1,0 +1,30 @@
+.ValueList {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: var(--spacing-xs);
+
+  .Slick--ValueList {
+    width: 65rem;
+    margin: 0 auto;
+
+    @media (max-width: 1200px) {
+      width: 55rem;
+    }
+
+    @media (max-width: 1050px) {
+      width: 40rem;
+      padding: var(--spacing-md) var(--spacing-lg);
+    }
+
+    @media (max-width: 750px) {
+      width: 90vw;
+      max-width: 35rem;
+    }
+
+    @media (max-width: 420px) {
+      width: 90vw;
+      padding: var(--spacing-md) 0;
+    }
+  }
+}

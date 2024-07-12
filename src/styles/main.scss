@@ -30,6 +30,8 @@
 @import "../components/AdvantageList/AdvantageList.module.scss";
 @import "../components/AdvantageCard/AdvantageCard.module.scss";
 @import "../components/ROICalculator/ROICalculator.module.scss";
+@import "../components/ValueList/ValueList.module.scss";
+@import "../components/ValueItem/ValueItem.module.scss";
 
 /* Import component styles */
 @import "components/_buttons.scss";
@@ -47,6 +49,7 @@
 @import "../sections/HomeProductHighlight/HomeProductHighlight.module.scss";
 @import "../sections/HomeAdvantages/HomeAdvantages.module.scss";
 @import "../sections/HomeROI/HomeROI.module.scss";
+@import "../sections/HomeAbout/HomeAbout.module.scss";
 
 /* Page styles */
 @import "../app/[lang]/page.module.scss";

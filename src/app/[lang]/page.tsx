@@ -1,3 +1,4 @@
+import HomeAbout from "@/sections/HomeAbout/HomeAbout";
 import HomeAdvantages from "@/sections/HomeAdvantages/HomeAdvantages";
 import HomeHero from "@/sections/HomeHero/HomeHero";
 import HomeProductHighlight from "@/sections/HomeProductHighlight/HomeProductHighlight";
@@ -15,6 +16,7 @@ export default async function Index() {
       <HomeProductHighlight />
       <HomeAdvantages />
       <HomeROI locale={locale} />
+      <HomeAbout />
     </main>
   );
 }

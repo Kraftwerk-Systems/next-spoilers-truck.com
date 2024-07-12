@@ -122,6 +122,12 @@
         "over5": "5 év alatt:",
         "inflation": "5% éves inflációval számolva"
       }
+    },
+    "valueList": {
+      "quality-value": "Termékminőség",
+      "communication-value": "Kommunikáció",
+      "catalog-value": "Széles katalógus",
+      "flexible-service-value": "Rugalmasság"
     }
   },
   "home": {
@@ -195,6 +201,15 @@
         "1": "Felkeltettük érdeklődését?",
         "2": "Látogassonk el online spoiler shopunkba és találja meg az Ön spoilerét mindössze 2 perc alatt!"
       }
+    },
+    "about": {
+      "HomeAbout__subtitle": "Arra törekszünk, hogy Ön elégedett legyen az eredménnyel",
+      "HomeAbout__title": {
+        "1": "Spoilerek ",
+        "2": "1991 óta"
+      },
+      "HomeAbout__description": "1991 óta specializáltan foglalkozunk teherautó légterelők (spoiler) és tartozékok gyártásával, melyekkel javítjuk a teherautók üzemanyag-hatékonyságát, vezetésbiztonságát és egy egyedi stílust is kölcsönzünk nekik. Elkötelezettek vagyunk a termékminőség, egy széles termékkatalógus és hatékony kommunikáció mellett. Így szolgáljuk ügyfeleink elégedettségét és tudunk gyorsan reagálni a felmerülő igényekre. 2019-ben kibővítettük létesítményünket két, 1100 négyzetméteres gyártó-, szerelő- és raktárcsarnokkal, ahol minden folyamatot a kor igényeinek megfelelő környezetben tudunk Tisztelt Ügyfeleink részére elvégezni.",
+      "HomeAbout__value-title": "Legfőbb értékeink"
     }
   },
   "notFound": {

@@ -122,6 +122,12 @@
         "over5": "over 5 years:",
         "inflation": "Calculated with 5% annual inflation."
       }
+    },
+    "valueList": {
+      "quality-value": "Product Quality",
+      "communication-value": "Communication",
+      "catalog-value": "Large Catalog",
+      "flexible-service-value": "Flexible Value Service"
     }
   },
   "home": {
@@ -195,6 +201,15 @@
         "1": "Interested?",
         "2": "Head to the shop and find your spoiler in 3 minutes!"
       }
+    },
+    "about": {
+      "HomeAbout__subtitle": "We strive to be your truck's Best Companion",
+      "HomeAbout__title": {
+        "1": "Spoilers",
+        "2": "Since 1991"
+      },
+      "HomeAbout__description": "Since 1991, we've specialized in manufacturing truck spoilers and accessories, focusing on fuel efficiency, driving safety and style. We are committed to product quality, a wide product catalogue and efficient customer interaction. This makes our customers satisfied, and enables us to serve any need quickly. In 2019, we expanded our facility with two, 1.100 square metres manufacturing-, fitting- and storage halls, where we build, store and mount spoilers for our esteemed customers.",
+      "HomeAbout__value-title": "Our top values"
     }
   },
   "notFound": {
