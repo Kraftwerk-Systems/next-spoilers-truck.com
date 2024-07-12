@@ -1,0 +1,11 @@
+.Tenders {
+  background-image: linear-gradient(90deg, #fffaf6 0%, #f4faff 100%);
+  &__divider {
+    width: 100vw;
+    height: 8rem;
+    background-color: var(--primary-900);
+    transform: skewY(-1deg);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+}

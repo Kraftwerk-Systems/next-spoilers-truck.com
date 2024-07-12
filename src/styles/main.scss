@@ -36,6 +36,7 @@
 @import "../components/Map/Map.module.scss";
 @import "../components/ContactCard/ContactCard.module.scss";
 @import "../components/Footer/Footer.module.scss";
+@import "../components/Tender/Tender.module.scss";
 
 /* Import component styles */
 @import "components/_buttons.scss";
@@ -55,7 +56,10 @@
 @import "../sections/HomeROI/HomeROI.module.scss";
 @import "../sections/HomeAbout/HomeAbout.module.scss";
 @import "../sections/HomeContact/HomeContact.module.scss";
+@import "../sections/TendersHero/TendersHero.module.scss";
+@import "../sections/TendersTender1/TendersTender1.module.scss";
 
 /* Page styles */
 @import "../app/[lang]/page.module.scss";
 @import "../app/[lang]/not-found.module.scss";
+@import "../app/[lang]/tenders/page.module.scss";

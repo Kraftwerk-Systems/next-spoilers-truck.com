@@ -168,6 +168,37 @@
       "Footer__cta-button": "GO TO OUR SHOP NOW",
       "privacyPolicy": "Privacy Policy",
       "termsAndConditions": "Terms and Conditions"
+    },
+    "tender": {
+      "title": "Tender",
+      "beneficiary": {
+        "key": "Beneficiary's name",
+        "value": "CAR-TRADE Industrial and Commercial Limited Liability Company"
+      },
+      "project": {
+        "key": "Project title",
+        "value": "Building energetic developments targeting the use of renewable energy and the increase of energy efficiency at the CAR-TRADE Ltd Seregélyes site"
+      },
+      "amount": {
+        "key": "Amount of contracted support",
+        "value": "16,596,580 HUF"
+      },
+      "ratio": {
+        "key": "Support rate (%)",
+        "value": "55%"
+      },
+      "content": {
+        "key": "Presentation of the project content",
+        "value": "The development aims to reduce the operational costs of the company, mainly through locally produced renewable energy. For this purpose, CAR-TRADE Ltd submitted a support application for the GINOP 4.1.4-19-2019 call announced by the European Union and the Hungarian Government, which the issuing organization found worthy of support. To reduce electricity consumption, two 50kVA connection power solar systems were installed and commissioned on the roofs of the hall buildings at the company's site. The nominal power of the solar panels is 116.16 kWp. The buildings are physically located at 8111 Seregélyes Jánosmajor Industrial Zone 025/54. The direct current produced by the modules is converted into alternating current by 2 FRONIUS ECO 25.0-3-S, 2 FRONIUS Symo 15.0-3-M, and 1 FRONIUS Symo 20.0-3-M inverters. These devices are equipped with an integrated network connection suitable device that enables them to process the monitoring data resulting from the operation and display them through a web interface. For the protection of the electrical network, overvoltage protection devices were installed in accordance with standards and legal regulations. The technical handover took place, the system was taken over by CAR-TRADE LTD for operation. As a result of the investment, the company's primary energy consumption will decrease by 689.99 GJ, and the emission of greenhouse gases will decrease by 96.13 tons every year."
+      },
+      "end": {
+        "key": "Project completion date",
+        "value": "2021.09.08"
+      },
+      "id": {
+        "key": "Project identification number",
+        "value": "GINOP-4.1.4-19-2020-01591"
+      }
     }
   },
   "home": {
@@ -258,5 +289,14 @@
     "message": "The page you're looking for might have been re-routed or removed. Please check the URL and try again. If you're still having trouble, please contact us.",
     "message2": "Error: 404",
     "backToHome": "Back to Home"
+  },
+  "tenders": {
+    "TendersHero__title": {
+      "1": "Read",
+      "2": "About Our",
+      "3": "Tenders"
+    },
+    "TendersHero__description": "Explore the grants won by Car Trade Kft., reflecting the and commitment of our business in sustainable operational practices and energy efficiency.",
+    "TendersHero__counter-label": "Tender"
   }
 }

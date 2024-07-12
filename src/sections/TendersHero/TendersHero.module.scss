@@ -1,0 +1,227 @@
+.TendersHero {
+  display: flex;
+  flex-direction: row;
+  min-height: 45rem;
+  max-height: 50rem;
+  padding-bottom: var(--spacing-2xl);
+  margin-top: 7.5rem;
+
+  @media (max-width: 1250px) {
+    margin-top: 9rem;
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 27.5rem;
+    flex-shrink: 0;
+    @media (max-width: 700px) {
+      min-width: 23rem;
+    }
+    @media (max-width: 576px) {
+      min-width: 10rem;
+      width: 100%;
+    }
+  }
+
+  &__heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: var(--vp_X_Pad_LG);
+    margin-top: 10vh;
+    @media (max-width: 992px) {
+      padding-left: 2.5rem;
+    }
+    @media (max-width: 576px) {
+      flex-direction: column;
+      gap: var(--spacing-md);
+      justify-content: center;
+      align-items: center;
+      padding-left: 0;
+    }
+  }
+  &__heading {
+    display: flex;
+
+    //height: 33vh;
+    //width: 25rem;
+    width: 75%;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    color: var(--primary-900);
+    font-size: var(--font-4xl);
+    color: var(--primary-1000);
+    width: 20rem;
+    font-weight: var(--font-regular);
+
+    @media (max-width: 992px) {
+      .slash-group {
+        display: block;
+        font-size: var(--font-4xl);
+        margin: 0 auto;
+      }
+      font-size: var(--font-3xl);
+    }
+
+    @media (max-width: 576px) {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  &__labels {
+    display: flex;
+    flex-direction: row;
+
+    gap: var(--spacing-sm);
+
+    @media (max-width: 576px) {
+      justify-content: center;
+    }
+  }
+
+  &__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-500);
+    color: var(--primary-1000);
+    font-weight: var(--font-semibold);
+    text-transform: uppercase;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 20px;
+  }
+
+  &__description {
+    color: var(--grayscale-800);
+
+    @media (max-width: 576px) {
+      text-align: center;
+      margin-top: 2rem;
+    }
+  }
+
+  &__circle-button-wrapper {
+    cursor: pointer;
+    position: absolute;
+    right: 0 - 2.5rem;
+    top: 20%;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    @media (hover: hover) {
+      &:hover {
+        box-shadow: var(--shadow-press-hover);
+      }
+    }
+
+    &:active {
+      box-shadow: var(--shadow-press-active);
+    }
+
+    @media (max-width: 700px) {
+      display: none;
+    }
+  }
+  &__circle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-900);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__circle-button-asd {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--secondary-500);
+    z-index: 1;
+  }
+
+  &__banner {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-lg);
+    align-items: center;
+    justify-content: center;
+    height: 33vh;
+  }
+
+  &__counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__counter-value {
+    color: var(--primary-900);
+    font-size: var(--font-2xl);
+    font-weight: var(--font-bold);
+  }
+  &__counter-label {
+    color: var(--grayscale-600);
+    font-size: var(--font-xl);
+    font-weight: var(--font-light);
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @include breakpoint("sm") {
+    &__image-wrapper {
+      display: none;
+    }
+    &__circle-button-wrapper {
+      position: relative;
+      top: 0;
+      right: 0;
+    }
+    &__control-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    &__banner {
+      height: auto;
+    }
+    &__content {
+      gap: var(--spacing-lg);
+    }
+  }
+  @media (max-width: 420px) {
+    &__title {
+      width: auto;
+    }
+
+    &__content {
+      width: 95vw;
+      margin: 0 auto;
+      min-width: auto;
+    }
+    &__title {
+      font-size: var(--font-2xl);
+    }
+  }
+}

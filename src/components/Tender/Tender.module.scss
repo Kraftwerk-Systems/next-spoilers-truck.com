@@ -1,0 +1,64 @@
+.Tender {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-emphasis-base);
+  padding: var(--spacing-lg);
+  width: 50rem;
+  gap: var(--spacing-sm);
+  border-radius: 2px;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: var(--font-3xl);
+    color: var(--primary-900);
+    font-weight: var(--font-bold);
+
+    @media (max-width: 576px) {
+      text-align: center;
+      width: 100%;
+      font-size: var(--font-2xl);
+    }
+  }
+
+  &__subtitle {
+    font-size: var(--font-lg);
+    color: var(--grayscale-700);
+    text-transform: uppercase;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  &__key {
+    color: var(--primary-900);
+    background-color: var(--grayscale-100);
+    font-weight: var(--font-bold);
+    padding: var(--spacing-xs);
+    font-size: var(--font-md);
+  }
+  &__value {
+    text-align: justify;
+  }
+
+  @media (max-width: 700px) {
+    &__top {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 400px) {
+    width: 95%;
+  }
+}

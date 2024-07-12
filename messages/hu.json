@@ -168,6 +168,37 @@
       "Footer__cta-button": "IRÁNY A BOLTUNK MOST",
       "privacyPolicy": "Adatvédelmi Irányelvek",
       "termsAndConditions": "Felhasználási Feltételek"
+    },
+    "tender": {
+      "title": "Pályázat",
+      "beneficiary": {
+        "key": "Kedvezményezett neve",
+        "value": "CAR-TRADE Ipari és Kereskedelmi Korlátolt Felelősségű Társaság"
+      },
+      "project": {
+        "key": "Projekt címe",
+        "value": "Megújuló energia használatát, energiahatékonyság növelését célzó épületenergetikai fejlesztések a CAR-TRADE Kft Seregélyesi telephelyén"
+      },
+      "amount": {
+        "key": "Szerződött támogatás összege",
+        "value": "16.596.580 Ft"
+      },
+      "ratio": {
+        "key": "Támogatás mértéke (%-ban)",
+        "value": "55%"
+      },
+      "content": {
+        "key": "Projekt tartalmának bemutatása",
+        "value": "A fejlesztés célja a vállalkozás működési költségeinek csökkentése főleg helyben megtermelt megújuló energiával. Ennek érdekében nyújtott be támogatási kérelmet a CAR-TRADE Kft az Európai Unió és a Magyar Kormány által meghirdetett GINOP 4.1.4-19-2019 pályázati felhívására, amit a kiíró szervezet támogatásra érdemesnek talált. A villamosenergia felhasználásának csökkentése érdekében két darab 50kVA csatlakozási teljesítményű napelemes rendszer telepítése és üzembe helyezése történt meg, a vállalkozás telephelyén lévő csarnoképületek tetőfelületén. A napelemek névleges teljesítménye 116,16 kWp. Az épületek fizikailag a 8111 Seregélyes Jánosmajor Ipari Zóna 025/54 helyrajzi számon találhatók. A modulok által előállított egyenfeszültséget 2 db FRONIUS ECO 25.0-3-S, 2 db FRONIUS Symo 15.0-3-M és 1 db inverter FRONIUS Symo 20.0-3-M alakítja át váltakozó feszültséggé. Ezek a berendezések olyan integrált hálózati csatlakozásra alkalmas eszközzel vannak ellátva, ami alkalmassá teszi őket az üzemelésből fakadó monitoring adatok feldolgozására és azokat egy webes felületen keresztül történő megjelenítésére is. A villamos hálózati védelem érdekében a szabványoknak és a jogszabályi előírásoknak megfelelő túlfeszültségvédelmi berendezések beépítésre kerültek. A műszaki átadás átvétel megtörtént a rendszert a CAR-TRADE KFT üzemeltetésre átvette. A beruházás eredményeképpen a vállalkozás primer energiafelhasználás csökkenése 689,99 GJ az üvegházhatású gázok kibocsátása 96,13 tonnával csökken minden évben."
+      },
+      "end": {
+        "key": "Projekt befejezési dátuma",
+        "value": "2021.09.08"
+      },
+      "id": {
+        "key": "Projekt azonosítószáma",
+        "value": "GINOP-4.1.4-19-2020-01591"
+      }
     }
   },
   "home": {
@@ -258,5 +289,14 @@
     "message": "Lehet, hogy a keresett oldalt átirányították vagy eltávolították. Kérjük, ellenőrizze az URL-t, és próbálja újra. Ha továbbra is problémába ütközik, forduljon hozzánk.",
     "message2": "Hibakód: 404",
     "backToHome": "Vissza a kezdőlapra"
+  },
+  "tenders": {
+    "TendersHero__title": {
+      "1": "Olvassa el",
+      "2": "A Mi",
+      "3": "Pályázatainkról"
+    },
+    "TendersHero__description": "Fedezze fel a Car Trade Kft. által nyert támogatásokat, amelyek tükrözik vállalkozásunk elkötelezettségét a fenntartható működési gyakorlatok és az energiahatékonyság iránt.",
+    "TendersHero__counter-label": "Pályázat"
   }
 }
