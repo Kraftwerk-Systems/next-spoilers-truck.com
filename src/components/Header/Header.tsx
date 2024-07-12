@@ -9,6 +9,7 @@ import Image from "next/image";
 import enSvg from "@/assets/icons/en.svg";
 import huSvg from "@/assets/icons/hu.svg";
 import deSvg from "@/assets/icons/de.svg";
+import hrSvg from "@/assets/icons/hr.svg";
 
 import logo from "@/../public/img/logo/logo-title.png";
 import { useRouter, usePathname } from "@/navigation";
@@ -237,6 +238,15 @@ export default function Header({ locale }: { locale: string }) {
             >
               <span className="Header__language-link">{t(`header.language.de`)}</span>
               <Image src={deSvg} className="Header__language-icon" width={24} height={24} alt="de" />
+            </li>
+
+            <li
+              onClick={() => changeLanguage("hr")}
+              key={"hr"}
+              className={`Header__language-item ${isActiveLanguage("hr") ? "Header__language-item--active" : ""}`}
+            >
+              <span className="Header__language-link">{t(`header.language.hr`)}</span>
+              <Image src={hrSvg} className="Header__language-icon" width={24} height={24} alt="hr" />
             </li>
           </ul>
         </nav>

@@ -1,304 +1,305 @@
 {
   "common": {
-    "metaDescription": "Beginnen Sie, ernsthaft Geld beim Lkw-Tanken zu sparen und erhöhen Sie die Sicherheit und Stabilität des Fahrzeugs. Holen Sie sich noch heute einen unserer präzise gebauten Lkw-Spoiler! Car Trade Kft., Hersteller von Lkw-Spoilern seit 1991.",
+    "metaDescription": "Počnite ozbiljno štedjeti na gorivu za kamione i povećajte sigurnost i stabilnost vozila. Nabavite jedan od naših precizno izrađenih spojlera za kamione danas! Car Trade Kft., proizvođač spojlera za kamione od 1991.",
     "cookies": {
       "cookiesBar": {
-        "heading": "Cookie-Richtlinie",
-        "text": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Durch die Nutzung unserer Seite stimmen Sie unserer Cookie-Richtlinie zu.",
-        "link": "Mehr erfahren",
-        "accept": "Akzeptieren",
-        "manage": "Cookies verwalten"
+        "heading": "Politika kolačića",
+        "text": "Koristimo kolačiće kako bismo poboljšali vaše iskustvo. Korištenjem naše stranice pristajete na našu politiku kolačića.",
+        "link": "Saznajte više",
+        "accept": "Prihvati",
+        "manage": "Upravljanje kolačićima"
       },
       "card": {
-        "heading": "Diese Webseite verwendet Cookies",
-        "description": "Diese Webseite verwendet Cookies, um die Benutzererfahrung zu verbessern. Durch die Nutzung unserer Webseite stimmen Sie allen Cookies gemäß unserer Cookie-Richtlinie zu.",
-        "save": "Einstellungen speichern",
-        "strictlyNecessary": "Erforderlich",
-        "performance": "Leistung",
-        "targeting": "Targeting",
-        "functionality": "Funktionalität",
-        "declineAll": "Alle ablehnen"
+        "heading": "Ova web stranica koristi kolačiće",
+        "description": "Ova web stranica koristi kolačiće za poboljšanje korisničkog iskustva. Korištenjem naše web stranice pristajete na sve kolačiće u skladu s našom Politikom kolačića.",
+        "save": "Spremi postavke",
+        "strictlyNecessary": "Strogo potrebni",
+        "performance": "Učinkovitost",
+        "targeting": "Ciljanje",
+        "functionality": "Funkcionalnost",
+        "declineAll": "Odbij sve"
       }
     },
     "advantageList": {
       "1": {
-        "title": "Aerodynamik",
-        "subtitle": "Verbesserter Luftstrom reduziert Widerstand und Turbulenzen."
+        "title": "Aerodinamika",
+        "subtitle": "Poboljšani protok zraka smanjuje otpor i turbulenciju."
       },
       "2": {
-        "title": "Stabilität",
-        "subtitle": "Spoiler verbessern die Straßenstabilität, besonders bei höheren Geschwindigkeiten."
+        "title": "Stabilnost",
+        "subtitle": "Spojleri poboljšavaju stabilnost na cesti, posebno pri višim brzinama."
       },
       "3": {
-        "title": "Effizienz",
-        "subtitle": "Bessere Aerodynamik führt zu einem niedrigeren Kraftstoffverbrauch."
+        "title": "Učinkovitost",
+        "subtitle": "Bolja aerodinamika vodi do manje potrošnje goriva."
       },
       "4": {
-        "title": "Sicherheit",
-        "subtitle": "Spoiler können das Handling verbessern und das Risiko von Überschlägen reduzieren."
+        "title": "Sigurnost",
+        "subtitle": "Spojleri mogu poboljšati upravljivost i smanjiti rizik od prevrtanja."
       },
       "5": {
-        "title": "Ästhetik",
-        "subtitle": "Der Spoiler erzeugt eine individuelle, stilvolle Optik für Ihren LKW."
+        "title": "Estetika",
+        "subtitle": "Spojler stvara prilagođen, stilski izgled vašeg kamiona."
       }
     },
     "header": {
-      "menu": "Menü",
+      "menu": "Izbornik",
       "navlist": {
-        "home": "Start",
-        "advantages": "Vorteile",
-        "about": "Über uns",
-        "tenders": "Zuschüsse",
+        "home": "Početna",
+        "advantages": "Prednosti",
+        "about": "O nama",
+        "tenders": "Natječaji",
         "contact": "Kontakt",
         "spoiler": "Spoiler",
-        "shop": "Shop",
-        "close": "Schließen"
+        "shop": "Trgovina",
+        "close": "Zatvori izbornik"
       },
       "language": {
-        "selector1": "",
-        "selector2": "Sprache",
-        "selector3": "Wählen",
-        "close": "Close",
-        "en": "Englisch",
-        "hu": "Ungarisch",
-        "de": "Deutsch",
-        "it": "Italienisch",
-        "slo": "Slowenisch",
-        "hr": "Kroatisch",
-        "ro": "Rumänisch",
-        "sk": "Slowakisch"
+        "selector1": "Promijeni",
+        "selector2": "Jezik",
+        "selector3": "",
+        "close": "Zatvori",
+        "en": "Engleski",
+        "hu": "Mađarski",
+        "de": "Njemački",
+        "it": "Talijanski",
+        "slo": "Slovenski",
+        "hr": "Hrvatski",
+        "ro": "Rumunjski",
+        "sk": "Slovački"
       }
     },
     "contactCard": {
-      "address": "Adresse",
-      "facility": "Einrichtung",
+      "address": "Adresa",
+      "facility": "Objekt",
       "telephone": "Telefon",
-      "mobile": "Mobil"
+      "mobile": "Mobitel"
     },
     "footer": {
-      "sitemap": "Sitemap",
-      "homeScreen": "Startbildschirm",
-      "spoilerAdvantages": "Spoiler Vorteile",
-      "aboutUs": "Über Uns",
-      "tenders": "Ausschreibungen",
+      "sitemap": "Mapa Stranice",
+      "homeScreen": "Početni Zaslon",
+      "spoilerAdvantages": "Prednosti Spoilera",
+      "aboutUs": "O Nama",
+      "tenders": "Natječaji",
       "contact": "Kontakt",
-      "productCatalogue": "Produktkatalog",
-      "topProducts": "Top Produkte",
-      "newProducts": "Neue Produkte",
-      "ourBrands": "Unsere Marken",
-      "catalogueSearch": "Katalogsuche",
-      "connectWithUs": "Verbinden Sie sich mit uns",
+      "productCatalogue": "Katalog Proizvoda",
+      "topProducts": "Top Proizvodi",
+      "newProducts": "Novi Proizvodi",
+      "ourBrands": "Naši Brendovi",
+      "catalogueSearch": "Pretraživanje Kataloga",
+      "connectWithUs": "Povežite se s Nama",
       "phone": "Telefon",
-      "mobile": "Handy",
-      "Footer__cta-title": "Beginnen Sie heute mit einem neuen Spoiler, Treibstoffkosten zu sparen.",
-      "Footer__cta-button": "JETZT ZU UNSEREM SHOP",
-      "privacyPolicy": "Datenschutzbestimmungen",
-      "termsAndConditions": "Geschäftsbedingungen"
+      "mobile": "Mobitel",
+      "Footer__cta-title": "Počnite štedjeti na troškovima goriva danas s novim spoilerom.",
+      "Footer__cta-button": "IDI U NAŠU TRGOVINU SADA",
+      "privacyPolicy": "Politika Privatnosti",
+      "termsAndConditions": "Uvjeti Korištenja"
     },
     "highlightsTable": {
       "top7": "Top 11 ",
-      "products": " Beliebteste Produkte",
+      "products": "Najpopularniji Proizvodi",
       "id": "Id",
-      "brand": "Marke",
-      "name": "Name"
+      "brand": "Marka",
+      "name": "Ime"
     },
     "ROICalculator": {
-      "title": "ROI-Rechner",
+      "title": "ROI Kalkulator",
       "categories": {
-        "3dot5t": "3,5-Tonnen-Van",
-        "7dot5t": "7,5-Tonnen-LKW",
-        "12t": "12-Tonnen-LKW",
-        "18t": "18-Tonnen-LKW",
-        "26t": "26-Tonnen-LKW",
-        "32t": "32-Tonnen-LKW",
-        "40t": "40-Tonnen-LKW"
+        "3dot5t": "Van od 3,5 Tone",
+        "7dot5t": "Kamion od 7,5 Tona",
+        "12t": "Kamion od 12 Tona",
+        "18t": "Kamion od 18 Tona",
+        "26t": "Kamion od 26 Tona",
+        "32t": "Kamion od 32 Tone",
+        "40t": "Kamion od 40 Tona"
       },
       "label": {
-        "truck": "LKW-Kategorie",
-        "mileage": "Jährliche Kilometerleistung",
-        "fuelConsumption": "Durchschnittsverbrauch in Litern/100km",
-        "currency": "Währung",
-        "litrePrice": "Kraftstoffpreis pro Liter (Netto)"
+        "truck": "Kategorija Kamiona",
+        "mileage": "Godišnja Kilometraža u Kilometrima",
+        "fuelConsumption": "Prosječna Potrošnja u Litrama/100km",
+        "currency": "Valuta",
+        "litrePrice": "Cijena Goriva po Litri (Neto)"
       },
       "results": {
-        "spoilerPrice": "Typischer Spoilerpreis:",
-        "fuelSavings": "Typische Kraftstoffersparnis:",
-        "payback": "Geschätzte Amortisationszeit:",
-        "year": "Jahr",
-        "years": "Jahre",
-        "month": "Monat",
-        "months": "Monate",
-        "day": "Tag",
-        "days": "Tage",
-        "estimated": "Geschätzte ",
-        "savings": "Einsparungen ",
-        "over5": "über 5 Jahre:",
-        "inflation": "Berechnet mit 5% jährlicher Inflation."
+        "spoilerPrice": "Tipična Cijena Spoilera:",
+        "fuelSavings": "Tipične Uštede na Gorivu:",
+        "payback": "Procijenjeni Period Povrata Investicije:",
+        "year": "godina",
+        "years": "godine",
+        "month": "mjesec",
+        "months": "mjeseci",
+        "day": "dan",
+        "days": "dani",
+        "estimated": "Procijenjeno ",
+        "savings": "uštede ",
+        "over5": "u 5 godina:",
+        "inflation": "Izračunato s 5% godišnje inflacije."
       }
     },
     "MessageBox": {
-      "heading1": "",
-      "heading2": "Nachricht ",
-      "heading3": "senden",
-      "subheading": "Senden Sie uns Ihre E-Mail-Adresse und wir werden uns in Kürze mit Ihnen in Verbindung setzen.",
+      "heading1": " Pošalji ",
+      "heading2": "Poruka",
+      "subheading": "Ako imate bilo kakvih pitanja, slobodno pitajte.",
       "form": {
-        "heading1": "Teilen Sie Ihre",
-        "heading2": "E-Mail mit",
-        "message": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
-        "placeholder": "john.deere@beispiel.com",
-        "button1": "Anfrage",
-        "button2": "Senden",
-        "checkbox1": "Ich akzeptiere den ",
-        "checkbox2": "Datenschutz",
+        "heading1": "Unesite svoj",
+        "heading2": "Email",
+        "message": "Kontaktirat ćemo vas što je prije moguće.",
+        "placeholder": "john.deere@primjer.com",
+        "button1": "Zahtjev ",
+        "button2": "Odgovor",
+        "checkbox1": "Prihvaćam ",
+        "checkbox2": "Politiku privatnosti",
         "checkbox3": "."
       },
-      "privacyPolicyError": "Sie müssen zuerst die Datenschutzbestimmungen akzeptieren.",
-      "submitError": "Ein Fehler ist aufgetreten. Wir arbeiten daran. Bitte versuchen Sie es erneut!",
-      "messageSuccess": "Ihre Nachricht wurde erfolgreich gesendet!"
+      "privacyPolicyError": "Prvo morate prihvatiti Pravilnik o privatnosti.",
+      "submitError": "Došlo je do pogreške. Radimo na tome. Molimo pokušajte ponovno!",
+      "messageSuccess": "Primili smo vaš e-mail i uskoro ćemo vas kontaktirati!"
     },
     "controls": {
-      "previous": "Vorherige",
-      "next": "Nächste"
+      "previous": "Prethodna",
+      "next": "Sljedeća"
     },
     "tender": {
-      "title": "Ausschreibung",
+      "title": "Natječaj",
       "beneficiary": {
-        "key": "Name des Begünstigten",
-        "value": "CAR-TRADE Industrie- und Handelsgesellschaft mit beschränkter Haftung"
+        "key": "Ime korisnika",
+        "value": "CAR-TRADE Industrijsko i trgovačko društvo s ograničenom odgovornošću"
       },
       "project": {
-        "key": "Projekttitel",
-        "value": "Gebäudeenergetische Entwicklungen zur Nutzung erneuerbarer Energien und zur Steigerung der Energieeffizienz am Standort Seregélyes der CAR-TRADE GmbH"
+        "key": "Naziv projekta",
+        "value": "Razvoj energetske učinkovitosti zgrada za korištenje obnovljive energije i povećanje energetske učinkovitosti na lokaciji Seregélyes tvrtke CAR-TRADE d.o.o."
       },
       "amount": {
-        "key": "Betrag der zugesagten Förderung",
+        "key": "Iznos dodijeljene potpore",
         "value": "16.596.580 HUF"
       },
       "ratio": {
-        "key": "Förderquote (%)",
+        "key": "Stopa potpore (%)",
         "value": "55%"
       },
       "content": {
-        "key": "Vorstellung des Projektinhalts",
-        "value": "Das Ziel der Entwicklung ist die Reduzierung der Betriebskosten des Unternehmens, hauptsächlich durch vor Ort erzeugte erneuerbare Energie. Zu diesem Zweck hat die CAR-TRADE GmbH einen Förderantrag im Rahmen des von der Europäischen Union und der Ungarischen Regierung ausgeschriebenen GINOP 4.1.4-19-2019 Programms eingereicht, der von der ausschreibenden Organisation als förderwürdig erachtet wurde. Zur Reduzierung des Stromverbrauchs wurden zwei Photovoltaiksysteme mit einer Anschlussleistung von je 50 kVA installiert und in Betrieb genommen auf den Dächern der Hallengebäude am Unternehmensstandort. Die nominelle Leistung der Photovoltaikmodule beträgt 116,16 kWp. Die Gebäude befinden sich physisch auf dem Grundstück mit der Katasternummer 8111 Seregélyes Jánosmajor Industriezone 025/54. Die von den Modulen erzeugte Gleichspannung wird von 2 FRONIUS ECO 25.0-3-S, 2 FRONIUS Symo 15.0-3-M und einem FRONIUS Symo 20.0-3-M Inverter in Wechselspannung umgewandelt. Diese Geräte sind mit einem für den integrierten Netzanschluss geeigneten Gerät ausgestattet, das sie in die Lage versetzt, die aus dem Betrieb resultierenden Monitoring-Daten zu verarbeiten und über eine Web-Oberfläche darzustellen. Zum Schutz des elektrischen Netzes wurden Überspannungsschutzgeräte gemäß den Normen und gesetzlichen Vorschriften installiert. Die technische Übergabe hat stattgefunden, das System wurde von der CAR-TRADE GmbH zur Betreibung übernommen. Als Ergebnis der Investition wird der Primärenergieverbrauch des Unternehmens um 689,99 GJ und die Emission von Treibhausgasen jährlich um 96,13 Tonnen reduziert."
+        "key": "Predstavljanje sadržaja projekta",
+        "value": "Cilj razvoja je smanjenje operativnih troškova poduzeća, uglavnom korištenjem obnovljive energije proizvedene na licu mjesta. U tu svrhu CAR-TRADE d.o.o. podnio je zahtjev za potporu na natječaj GINOP 4.1.4-19-2019 koji su raspisali Europska unija i Mađarska vlada, a koji je organizator natječaja smatrao vrijednim potpore. Radi smanjenja potrošnje električne energije instalirana su dva solarna sustava s priključnom snagom od 50 kVA na krovovima hala na lokaciji poduzeća. Nominalna snaga solarnih panela iznosi 116,16 kWp. Zgrade se fizički nalaze na adresi 8111 Seregélyes Jánosmajor Industrijska zona 025/54. Gleichstrom koji proizvode moduli pretvara se u izmjenični napon pomoću 2 FRONIUS ECO 25.0-3-S, 2 FRONIUS Symo 15.0-3-M i jednog FRONIUS Symo 20.0-3-M invertora. Ti su uređaji opremljeni uređajem pogodnim za integrirani mrežni priključak koji im omogućava obradu podataka o monitoringu dobivenih iz rada i njihovo prikazivanje putem web sučelja. Za zaštitu električne mreže instalirani su uređaji za zaštitu od prenapona u skladu s normama i zakonskim propisima. Tehnička primopredaja je obavljena, sustav je preuzela tvrtka CAR-TRADE d.o.o. za operativno upravljanje. Kao rezultat investicije, godišnja potrošnja primarne energije poduzeća smanjit će se za 689,99 GJ, a emisije stakleničkih plinova za 96,13 tona."
       },
       "end": {
-        "key": "Projektabschlussdatum",
+        "key": "Datum završetka projekta",
         "value": "2021.09.08"
       },
       "id": {
-        "key": "Projektidentifikationsnummer",
+        "key": "Identifikacijski broj projekta",
         "value": "GINOP-4.1.4-19-2020-01591"
       }
     },
+
     "highlightsCarousel": {
-      "view-in-shop": "Im Shop ",
-      "now": "ansehen"
+      "view-in-shop": "Pogledaj u trgovini ",
+      "now": "sada"
     },
     "valueList": {
-      "quality-value": "Produktqualität",
-      "communication-value": "Kommunikation",
-      "catalog-value": "Großer Katalog",
-      "flexible-service-value": "Flexibilität"
+      "quality-value": "Kvaliteta proizvoda",
+      "communication-value": "Komunikacija",
+      "catalog-value": "Veliki katalog",
+      "flexible-service-value": "Fleksibilna usluga"
     }
   },
   "home": {
     "hero": {
-      "subheading-highlight": "LKW-Spoiler ",
-      "subheading": "Für alle Fahrzeugmodelle",
-      "heading-1": "Möchten Sie beim Betanken Ihrer LKWs ",
-      "heading-bold": "ernst Geld sparen?",
-      "heading-2": "",
-      "heading-medium": "Starten Sie es heute.",
-      "lead-1": "Mit mehr als ",
-      "lead-highlight": "30 Jahren Erfahrung",
-      "lead-2": ", liefern wir individuelle Spoiler für alle LKW-Kategorien, denen regionale Branchenführer vertrauen. Unsere Spoiler vereinen Effizienz und Stil, unterstützt durch langjährige Erfahrung.",
-      "tagline": "Möchten Sie wissen, wie schnell sich Ihr Spoiler amortisiert?",
-      "roi-button": "ROI Berechnen",
-      "view-products-button": "Unsere Top-Produkte",
-      "roi-small": "ROI = Ret. on Investment / Kapitalrendite.",
-      "visit-shop": "Zum Shop gehen und ",
-      "visit-shop-bold": "ihren Spoiler in 2 Min. finden!",
-      "to-shop-button": "Zum Shop gehen",
-      "contact-heading": "Kontakt aufnehmen, wenn Sie Fragen haben:",
+      "subheading-highlight": "Spojleri za Kamione ",
+      "subheading": "Za sve modele vozila",
+      "heading-1": "Želite ",
+      "heading-bold": "ozbiljno uštedjeti ",
+      "heading-2": "na gorivu za vaše kamione?",
+      "heading-medium": "Možete početi danas.",
+      "lead-1": "S više od ",
+      "lead-highlight": "30 godina iskustva",
+      "lead-2": ", isporučujemo prilagođene spojlere za sve kategorije kamiona, kojima vjeruju regionalni lideri u industriji. Naši spojleri kombiniraju učinkovitost i stil, podržani desetljećima iskustva.",
+      "tagline": "Želite li znati koliko brzo će se vaš spojler isplatiti?",
+      "roi-button": "Izračunajte svoj ROI",
+      "view-products-button": "Top proizvode",
+      "roi-small": "ROI = Povrat investicije.",
+      "visit-shop": "Posjetite našu trgovinu i ",
+      "visit-shop-bold": "pronađite svoj spojler u 2 minute!",
+      "to-shop-button": "Idi u trgovinu",
+      "contact-heading": "Ili nas kontaktirajte ako imate pitanja:",
       "phone": "+36 22 328-377",
       "mobile": "+36 20 315 6600",
       "email": "info@spoilers-truck.com",
       "facebook": "@ CarTradeKft"
     },
     "productHighlight": {
-      "tagline": "Die Lieblingsauswahl unserer Kunden",
-      "heading": "Produkt ",
-      "heading-bold": "Highlights",
-      "lead-1": "Sehen Sie an, was andere Kunden kaufen.",
-      "lead-2": "Lassen Sie sich von unseren ",
-      "lead-bold": "Top-Produkten inspirieren."
+      "tagline": "Najdraži odabiri naših kupaca",
+      "heading": "Proizvod ",
+      "heading-bold": "Istaknuto",
+      "lead-1": "Pogledajte što kupuju drugi kupci.",
+      "lead-2": "Neka vas inspiriraju naši ",
+      "lead-bold": "najbolji proizvodi."
     },
     "advantages": {
-      "HomeAdvantages__subtitle": "Es geht nicht nur darum, Geld zu sparen",
+      "HomeAdvantages__subtitle": "Nije samo u štednji novca",
       "HomeAdvantages__title": {
-        "1": "Maximieren Sie",
-        "2": "ihre LKW-Effienz"
+        "1": "Maksimizirajte",
+        "2": "Učinkovitost vašeg kamiona"
       },
       "HomeAdvantages__description": {
-        "1": "Fahren Sie",
-        "2": "smarter, sicherer und günstiger",
-        "3": "mit Ihrem eigenen Spoiler."
+        "1": "Vožnja",
+        "2": "pametnije, sigurnije i jeftinije",
+        "3": "sa svojim spojlerom."
       },
       "HomeAdvantages__button": {
-        "1": "ROI ",
-        "2": "Jetzt Kalkulieren"
+        "1": "IZRAČUNAJTE ROI",
+        "2": "SADA"
       }
     },
     "roi": {
-      "HomeROI__subtitle": "Berechnen Sie Ihre Einsparungen in 20 Sekunden",
+      "HomeROI__subtitle": "Predvidite svoje uštede u 20 sekundi",
       "HomeROI__title": {
-        "1": "Berechnen Sie Ihren",
-        "2": "ROI"
+        "1": "Izračunajte svoj",
+        "2": "Povrat na investiciju"
       },
-      "HomeROI__description": "Entdecken Sie, wie viel Sie bei den Kraftstoffkosten mit unseren Spoilern sparen können. Geben Sie einfach die Details Ihres LKWs und Ihre Fahrpraktiken ein, um Ihren potenziellen ROI zu sehen.",
-      "HomeROI__button": "ZUM SHOP",
+      "HomeROI__description": "Otkrijte koliko možete uštedjeti na troškovima goriva s našim spojlerima. Samo unesite detalje o svom kamionu i navike vožnje da biste vidjeli svoj potencijalni ROI.",
+      "HomeROI__button": "U TRGOVINU",
       "HomeROI__cta": {
-        "1": "Interessiert?",
-        "2": "Gehen Sie zum Shop und finden Sie Ihren Spoiler in 3 Minuten!"
+        "1": "Zainteresirani?",
+        "2": "Idite u trgovinu i pronađite svoj spojler za 3 minute!"
       }
     },
     "about": {
-      "HomeAbout__subtitle": "Wir streben danach, der beste Begleiter Ihres Lastwagens zu sein",
+      "HomeAbout__subtitle": "Težimo biti najbolji suputnik vašeg kamiona",
       "HomeAbout__title": {
-        "1": "Spoilern",
-        "2": "Seit 1991"
+        "1": "Spojlera",
+        "2": "Od 1991"
       },
-      "HomeAbout__description": "Seit 1991 haben wir uns auf die Herstellung von Lkw-Spoilern und Zubehör spezialisiert, mit einem Fokus auf Kraftstoffeffizienz, Fahrsicherheit und Stil. Wir sind verpflichtet zur Produktqualität, einem breiten Produktkatalog und effizienter Kundeninteraktion. Dies macht unsere Kunden zufrieden und ermöglicht es uns, schnell auf jegliche Bedürfnisse zu reagieren. Im Jahr 2019 haben wir unsere Einrichtung um zwei 1.100 Quadratmeter große Produktions-, Montage- und Lagerhallen erweitert, in denen wir Spoiler für unsere geschätzten Kunden bauen, lagern und montieren.",
-      "HomeAbout__value-title": "Unsere wichtigsten Werte"
+      "HomeAbout__description": "Od 1991. specijalizirani smo za proizvodnju spojlera i dodataka za kamione, s fokusom na učinkovitost potrošnje goriva, sigurnost vožnje i stil. Posvećeni smo kvaliteti proizvoda, širokom katalogu proizvoda i učinkovitoj interakciji s kupcima. To naše kupce čini zadovoljnima i omogućuje nam da brzo zadovoljimo svaku potrebu. Godine 2019. proširili smo naš objekt s dvije proizvodne, montažne i skladišne hale od 1.100 kvadratnih metara, gdje gradimo, skladištimo i montiramo spojlere za naše cijenjene kupce.",
+      "HomeAbout__value-title": "Naše glavne vrijednosti"
     },
+
     "shopHighlight": {
       "heading": "Online ",
       "heading-bold": "Shop",
-      "lead": "Rüsten Sie die Kraftstoffeffizienz, Sicherheit und das Aussehen Ihres LKWs mit unseren präzisionsgefertigten Spoilern auf.",
-      "lead-bold": "Besuchen Sie jetzt unseren Shop und ",
-      "lead-bold-highlight": "fangen Sie heute an zu sparen!",
-      "image-alt": "Die Startseite des Shops als Link zum Shop.",
-      "assortment-heading": "Eine große Auswahl an ",
-      "assortment-heading-bold": "Top-Marken",
-      "button-cta": "Auswahl ansehen"
+      "lead": "Poboljšajte ekonomičnost goriva, sigurnost i izgled svog kamiona s našim precizno proizvedenim spojlerima.",
+      "lead-bold": "Posjetite našu trgovinu sada i ",
+      "lead-bold-highlight": "počnite štedjeti danas!",
+      "image-alt": "Početna stranica Trgovine kao link do Trgovine.",
+      "assortment-heading": "Širok Asortiman ",
+      "assortment-heading-bold": "Vrhunskih Marki",
+      "button-cta": "Naš odabir"
     }
   },
   "notFound": {
-    "logoAlt": "Car Trade Logo",
-    "heading": "Seite Nicht Gefunden",
-    "message": "Die von Ihnen gesuchte Seite wurde möglicherweise umgeleitet oder entfernt. Bitte überprüfen Sie die URL und versuchen Sie es erneut. Wenn Sie weiterhin Probleme haben, kontaktieren Sie uns bitte.",
-    "message2": "Fehler: 404",
-    "backToHome": "Zurück zur Startseite"
+    "logoAlt": "Logo Auto Trgovine",
+    "heading": "Stranica nije pronađena",
+    "message": "Stranica koju tražite možda je preusmjerena ili uklonjena. Molimo provjerite URL i pokušajte ponovno. Ako i dalje imate problema, molimo kontaktirajte nas.",
+    "message2": "Greška: 404",
+    "backToHome": "Povratak na početnu"
   },
   "tenders": {
     "TendersHero__title": {
-      "1": "Lesen Sie",
-      "2": "Über Unsere",
-      "3": "Ausschreibungen"
+      "1": "Pročitajte",
+      "2": "O Našim",
+      "3": "Natječajima"
     },
-    "TendersHero__description": "Entdecken Sie die von Car Trade Kft. gewonnenen Zuschüsse, die das Engagement unseres Unternehmens für nachhaltige Betriebspraktiken und Energieeffizienz widerspiegeln.",
-    "TendersHero__counter-label": "Ausschreibung"
+    "TendersHero__description": "Istražite potpore koje je osvojila Car Trade Kft., odražavajući predanost i angažman našeg poslovanja u održivim operativnim praksama i energetskoj učinkovitosti.",
+    "TendersHero__counter-label": "Natječaj"
   },
   "privacy": {
     "backToLastPage1": "Back ",
