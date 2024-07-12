@@ -11,6 +11,7 @@ import huSvg from "@/assets/icons/hu.svg";
 import deSvg from "@/assets/icons/de.svg";
 import hrSvg from "@/assets/icons/hr.svg";
 import itSvg from "@/assets/icons/it.svg";
+import roSvg from "@/assets/icons/ro.svg";
 
 import logo from "@/../public/img/logo/logo-title.png";
 import { useRouter, usePathname } from "@/navigation";
@@ -257,6 +258,15 @@ export default function Header({ locale }: { locale: string }) {
             >
               <span className="Header__language-link">{t(`header.language.it`)}</span>
               <Image src={itSvg} className="Header__language-icon" width={24} height={24} alt="it" />
+            </li>
+
+            <li
+              onClick={() => changeLanguage("ro")}
+              key={"ro"}
+              className={`Header__language-item ${isActiveLanguage("ro") ? "Header__language-item--active" : ""}`}
+            >
+              <span className="Header__language-link">{t(`header.language.ro`)}</span>
+              <Image src={roSvg} className="Header__language-icon" width={24} height={24} alt="ro" />
             </li>
           </ul>
         </nav>
