@@ -69,7 +69,7 @@ const defaultSettings: SliderSettings = {
 
 const Slick = forwardRef<Slider, SlickProps>(
   ({ items, settings = {}, responsiveSettings = [], componentClass, itemClass, dotsWithNumbers = false }, ref) => {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState(0);
 
     useEffect(() => {
       const handleResize = () => {

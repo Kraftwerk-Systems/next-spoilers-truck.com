@@ -5,6 +5,9 @@ import "@/styles/main.scss";
 import Header from "@/components/Header/Header";
 import CookiesBar from "@/components/CookiesBar/CookiesBar";
 
+import { Noto_Sans } from "next/font/google";
+const notoSans = Noto_Sans({ subsets: ["latin"] });
+
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
@@ -21,7 +24,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={notoSans.className}>
       <body>
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />

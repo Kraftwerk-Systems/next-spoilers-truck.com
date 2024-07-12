@@ -35,13 +35,7 @@ h3,
 
 h4,
 .h4 {
-  @include typography(
-    var(--font-2xl),
-    var(--font-regular),
-    0.5px,
-    inherit,
-    var(--grayscale-700)
-  );
+  @include typography(var(--font-2xl), var(--font-regular), 0.5px, inherit, var(--grayscale-700));
   font-family: "Montserrat", sans-serif !important;
 }
 
@@ -56,34 +50,16 @@ p,
 }
 
 .caption {
-  @include typography(
-    var(--font-sm),
-    var(--font-light),
-    0,
-    inherit,
-    var(--grayscale-500)
-  );
+  @include typography(var(--font-sm), var(--font-light), 0, inherit, var(--grayscale-500));
 }
 
 .small {
-  @include typography(
-    var(--font-xs),
-    var(--font-light),
-    0,
-    inherit,
-    var(--grayscale-400)
-  );
+  @include typography(var(--font-xs), var(--font-light), 0, inherit, var(--grayscale-400));
 }
 
 a,
 .link {
-  @include typography(
-    var(--font-md),
-    var(--font-medium),
-    0,
-    inherit,
-    var(--info-500)
-  );
+  @include typography(var(--font-md), var(--font-medium), 0, inherit, var(--info-500));
 
   transition: color 0.15s ease;
   text-decoration: none;
