@@ -1,8 +1,7 @@
 import notFound from "@/assets/icons/404.svg";
 import Image from "next/image";
-import Button from "@/components/Button/Button";
 import { getTranslations } from "next-intl/server";
-import { Link } from "@/navigation";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 export default async function NotFoundPage() {
   const t = await getTranslations("notFound");
@@ -22,11 +21,9 @@ export default async function NotFoundPage() {
         </div>
         <Image src={notFound} alt="404" className="NotFound__icon NotFound__icon--landscape" />
         <Image src={notFound} alt="404" className="NotFound__icon NotFound__icon--portrait" />
-        <Link href="/">
-          <button className="Button Button--primary Button--dark Button--normal NotFound__button">
-            {t("backToHome")}
-          </button>
-        </Link>
+        <ButtonLink href="/" type="primary" isDark={true} className="NotFound__button">
+          {t("backToHome")}
+        </ButtonLink>
       </main>
     </>
   );

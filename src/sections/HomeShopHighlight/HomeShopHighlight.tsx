@@ -1,29 +1,19 @@
-"use client";
-
 import BrandCard from "@/components/BrandCard/BrandCard";
-import Button from "@/components/Button/Button";
 import ShopLink from "@/components/ShopLink/ShopLink";
 import Slick from "@/components/Slick/Slick";
 import brands from "@/data/brands";
-import { useTranslations } from "next-intl";
 import highlightBg from "/public/img/bg/section-shop-highlight-bg.webp";
 import shopHero from "/public/img/bg/shop-hero.webp";
 import Image from "next/image";
 
 import { Link } from "@/navigation";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import { getTranslations } from "next-intl/server";
 
-export default function HomeShopHighlight({ locale }: { locale: string }) {
-  const t = useTranslations("home");
+export default async function HomeShopHighlight({ locale }: { locale: string }) {
+  const t = await getTranslations("home");
 
   const shopUrl = "/shop";
-
-  const handleLinkClick = (event: any, url: string) => {
-    if (event.shiftKey || event.ctrlKey || event.metaKey) {
-      window.open(url, "_blank");
-    } else {
-      window.location.href = url;
-    }
-  };
 
   return (
     <section className="HomeShopHighlight" id="shop-highlights">
@@ -133,16 +123,9 @@ export default function HomeShopHighlight({ locale }: { locale: string }) {
               }))}
             />
           </div>
-          <Button
-            type="secondary"
-            size="large"
-            onClick={(e) => {
-              handleLinkClick(e, shopUrl);
-            }}
-            className="HomeShopHighlight__button"
-          >
+          <ButtonLink type="secondary" size="large" href={shopUrl} className="HomeShopHighlight__button">
             {t("shopHighlight.button-cta")}
-          </Button>
+          </ButtonLink>
         </div>
       </div>
     </section>

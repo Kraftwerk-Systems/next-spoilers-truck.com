@@ -1,6 +1,3 @@
-"use client";
-
-import Button from "@/components/Button/Button";
 import { useTranslations } from "next-intl";
 import React from "react";
 import Image from "next/image";
@@ -8,7 +5,7 @@ import phone from "@/assets/icons/phone.svg";
 import mobile from "@/assets/icons/mobile.svg";
 import email from "@/assets/icons/email.svg";
 import facebook from "@/assets/icons/facebook.svg";
-import { Link } from "@/navigation";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 export default function HomeHero() {
   const t = useTranslations("home");
@@ -20,7 +17,6 @@ export default function HomeHero() {
     if (roiSection) {
       roiSection.scrollIntoView({ behavior: "smooth" });
     }
-    console.log("asd");
   };
 
   const handleLinkClick = (event: any, url: string) => {
@@ -58,26 +54,19 @@ export default function HomeHero() {
             <span className="HomeHero__tagline">{t("hero.tagline")}</span>
             <div className="HomeHero__buttons">
               <div className="HomeHero__button-group">
-                <Button
-                  type="primary"
-                  size="large"
-                  onClick={() => scrollTo("roi")}
-                  className="HomeHero__button HomeHero__roi-button"
-                >
+                <ButtonLink type="primary" size="large" href="/#roi" className="HomeHero__button HomeHero__roi-button">
                   {t("hero.roi-button")}
-                </Button>
+                </ButtonLink>
                 <small className="HomeHero__roi-small">{t("hero.roi-small")}</small>
               </div>
-              <Button
+              <ButtonLink
                 type="grayscale"
                 size="large"
-                onClick={() => {
-                  scrollTo("product-highlights");
-                }}
+                href="/#product-highlights"
                 className="HomeHero__button HomeHero__shop-button"
               >
                 {t("hero.view-products-button")}
-              </Button>
+              </ButtonLink>
             </div>
           </div>
         </div>
@@ -87,14 +76,14 @@ export default function HomeHero() {
               {t("hero.visit-shop")}
               <span className="HomeHero__visit-shop-bold">{t("hero.visit-shop-bold")}</span>
             </span>
-            <Button
+            <ButtonLink
               type="secondary"
               size="large"
-              onClick={(event) => handleLinkClick(event, shopUrl)}
+              href={shopUrl}
               className="HomeHero__button HomeHero__to-shop-button"
             >
               {t("hero.to-shop-button")}
-            </Button>{" "}
+            </ButtonLink>{" "}
           </div>
           <div className="HomeHero__contacts">
             <span className="HomeHero__contact-heading">{t("hero.contact-heading")}</span>
