@@ -1,6 +1,4 @@
-"use client";
-
-import { FunctionComponent, ReactNode, MouseEvent } from "react";
+import { ReactNode, MouseEvent } from "react";
 
 interface ButtonProps {
   onClick: (event: MouseEvent<HTMLButtonElement>) => void;

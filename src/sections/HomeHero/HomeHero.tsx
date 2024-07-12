@@ -8,6 +8,7 @@ import phone from "@/assets/icons/phone.svg";
 import mobile from "@/assets/icons/mobile.svg";
 import email from "@/assets/icons/email.svg";
 import facebook from "@/assets/icons/facebook.svg";
+import { Link } from "@/navigation";
 
 export default function HomeHero() {
   const t = useTranslations("home");
@@ -19,6 +20,7 @@ export default function HomeHero() {
     if (roiSection) {
       roiSection.scrollIntoView({ behavior: "smooth" });
     }
+    console.log("asd");
   };
 
   const handleLinkClick = (event: any, url: string) => {
