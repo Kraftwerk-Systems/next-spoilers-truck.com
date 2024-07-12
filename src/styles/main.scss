@@ -32,5 +32,7 @@
 /* Component styles */
 
 /* Section styles */
+@import "../sections/HomeHero/HomeHero.module.scss";
 
 /* Page styles */
+@import "../app/[lang]/page.module.scss";

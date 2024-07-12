@@ -1,7 +1,4 @@
 {
-  "Index": {
-    "title": "Hello world!"
-  },
   "common": {
     "header": {
       "menu": "Menu",
@@ -54,6 +51,31 @@
         "functionality": "Functionality",
         "declineAll": "Decline All"
       }
+    }
+  },
+  "home": {
+    "hero": {
+      "subheading-highlight": "Truck Spoilers ",
+      "subheading": "For all vehicle models",
+      "heading-1": "Want to ",
+      "heading-bold": "save serious money ",
+      "heading-2": "on fueling your trucks?",
+      "heading-medium": "You can start today.",
+      "lead-1": "With more than ",
+      "lead-highlight": "30 years of experience",
+      "lead-2": ", we deliver custom spoilers for all truck categories, trusted by regional industry leaders. Our spoilers combine efficiency and style, backed by decades of experience.",
+      "tagline": "Want to know how quickly Your spoiler will pay back?",
+      "roi-button": "Calculate your ROI",
+      "view-products-button": "View Top products",
+      "roi-small": "ROI = Return on Investment.",
+      "visit-shop": "Visit our shop and ",
+      "visit-shop-bold": "find your spoiler in 2 minutes!",
+      "to-shop-button": "Go to the shop",
+      "contact-heading": "Or, contact us if you have questions:",
+      "phone": "+36 22 328-377",
+      "mobile": "+36 20 315 6600",
+      "email": "info@spoilers-truck.com",
+      "facebook": "@ CarTradeKft"
     }
   }
 }

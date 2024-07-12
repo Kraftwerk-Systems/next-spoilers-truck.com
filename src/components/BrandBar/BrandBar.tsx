@@ -1,7 +1,7 @@
 import useContactBarVisibility from "@/hooks/useContactBarVisibility";
 import { Link } from "@/navigation";
 
-const BrandBar: React.FC = () => {
+export default function BrandBar() {
   const isInvisible = useContactBarVisibility();
 
   return (
@@ -93,6 +93,4 @@ const BrandBar: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default BrandBar;
+}

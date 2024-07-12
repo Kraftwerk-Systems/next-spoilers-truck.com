@@ -1,0 +1,13 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--viewportHeight);
+  padding-bottom: 5rem;
+  background-image: linear-gradient(90deg, #fff7f0 0%, #eff8ff 100%);
+  position: relative;
+
+  overflow-x: hidden;
+  z-index: -1;
+}

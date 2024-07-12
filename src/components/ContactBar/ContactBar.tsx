@@ -5,7 +5,7 @@ import mobile from "@/assets/icons/mobile.svg";
 import email from "@/assets/icons/email.svg";
 import facebook from "@/assets/icons/facebook.svg";
 
-const ContactBarItem = ({ icon, text, hideOnMobile }: { icon: string; text: string; hideOnMobile?: boolean }) => {
+function ContactBarItem({ icon, text, hideOnMobile }: { icon: string; text: string; hideOnMobile?: boolean }) {
   return (
     <div className={`ContactBarItem ${hideOnMobile ? "ContactBarItem--hideOnMobile" : ""}`}>
       <Image
@@ -19,9 +19,9 @@ const ContactBarItem = ({ icon, text, hideOnMobile }: { icon: string; text: stri
       <span className="ContactBarItem__text">{text}</span>
     </div>
   );
-};
+}
 
-const ContactBar: React.FC = () => {
+export default function ContactBar() {
   const isVisible = useContactBarVisibility();
 
   return (
@@ -34,6 +34,4 @@ const ContactBar: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default ContactBar;
+}

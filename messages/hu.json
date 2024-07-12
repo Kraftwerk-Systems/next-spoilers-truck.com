@@ -1,7 +1,4 @@
 {
-  "Index": {
-    "title": "Szia világ!"
-  },
   "common": {
     "header": {
       "menu": "Menü",
@@ -54,6 +51,31 @@
         "functionality": "Funkcionalitás",
         "declineAll": "Összes elutasítása"
       }
+    }
+  },
+  "home": {
+    "hero": {
+      "subheading-highlight": "Kamion Spoilerek ",
+      "subheading": "Minden járműtípushoz",
+      "heading-1": "Kíván ",
+      "heading-bold": "komoly pénzt spórolni ",
+      "heading-2": "a kamionok tankolásán?",
+      "heading-medium": "Már ma elkezdheti.",
+      "lead-1": "Több mint ",
+      "lead-highlight": "30 év tapasztalattal",
+      "lead-2": " szállítunk egyedi spoilereket minden kamionkategóriához, vásárlóink között van több régiós vezető cég is. Spoilereink ötvözik a hatékonyságot és a stílust, évtizedes tapasztalattal alátámasztva.",
+      "tagline": "Szeretné tudni, milyen gyorsan térül meg a spoilere?",
+      "roi-button": "ROI Kiszámítása",
+      "view-products-button": "Top termékeink",
+      "roi-small": "ROI = Befektetés megtérülése.",
+      "visit-shop": "Látogasson el a shopba és ",
+      "visit-shop-bold": "találja meg spoilerét 2 perc alatt!",
+      "to-shop-button": "Irány a Shop",
+      "contact-heading": "Elérhetőség, ha kérdése merülne fel:",
+      "phone": "+36 22 328-377",
+      "mobile": "+36 20 315 6600",
+      "email": "info@spoilers-truck.com",
+      "facebook": "@ CarTradeKft"
     }
   }
 }

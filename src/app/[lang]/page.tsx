@@ -1,6 +1,9 @@
-import { getTranslations } from "next-intl/server";
+import HomeHero from "@/sections/HomeHero/HomeHero";
 
 export default async function Index() {
-  const t = await getTranslations("Index");
-  return <h1>{t("title")}</h1>;
+  return (
+    <main className="Home">
+      <HomeHero />
+    </main>
+  );
 }
