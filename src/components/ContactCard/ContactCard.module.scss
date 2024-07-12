@@ -1,0 +1,165 @@
+.ContactCard {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xl);
+
+  &__banner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  &__heading {
+  }
+
+  &__title {
+    font-weight: var(--font-bold);
+    color: var(--primary-900);
+    font-size: var(--font-3xl);
+  }
+
+  &__subtitle {
+    //font-size: var(--font-sm);
+    color: var(--grayscale-500);
+    font-weight: var(--font-medium);
+  }
+
+  &__lead {
+    font-size: var(--font-xl);
+    color: var(--primary-800);
+    font-weight: var(--font-light);
+  }
+
+  &__body {
+    background-color: var(--primary-1000);
+    border-radius: 5px;
+    padding: var(--spacing-md);
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    background-color: var(--primary-1000);
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+  }
+
+  &__label {
+    font-weight: var(--font-bold);
+    color: var(--primary-100);
+    text-transform: uppercase;
+  }
+
+  &__value {
+    font-size: var(--font-md);
+    font-weight: var(--font-regular);
+    color: var(--primary-400);
+  }
+
+  &__logo-wrapper {
+    opacity: 0.3;
+    padding-left: var(--spacing-lg);
+  }
+
+  &__logo {
+    width: 12rem;
+  }
+
+  &__body-row {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-xl);
+  }
+
+  &__flag-wrapper {
+    position: relative;
+    width: 50px;
+    height: 100%;
+  }
+  &__flag1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 100%;
+    background-color: var(--secondary-400);
+    border-radius: 0px 0px 3px 0px;
+  }
+  &__flag2 {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 10px;
+    height: 75%;
+    background-color: var(--secondary-500);
+    border-radius: 0px 0px 3px 0px;
+  }
+  &__flag3 {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 15px;
+    height: 50%;
+    background-color: var(--secondary-600);
+    border-radius: 0px 3px 3px 0px;
+  }
+}
+@media (max-width: 1700px) {
+  .ContactCard__title {
+    font-size: var(--font-3xl);
+  }
+}
+@media (max-width: 1280px) {
+  .ContactCard__banner {
+    width: 100%;
+  }
+  .ContactCard__logo-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 950px) {
+  .ContactCard {
+    flex-direction: column;
+  }
+
+  .ContactCard__logo-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .ContactCard {
+    width: 100%;
+  }
+  .ContactCard__body-row {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+  .ContactCard__flag-wrapper {
+    height: 12rem;
+  }
+  .ContactCard__body {
+    padding: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 420px) {
+  .ContactCard__title {
+    font-size: var(--font-2xl);
+  }
+}

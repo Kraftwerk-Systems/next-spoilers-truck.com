@@ -1,0 +1,8 @@
+.HomeContact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+  padding: var(--vp_X_Pad_MD);
+  padding-top: var(--spacing-4xl);
+  padding-bottom: var(--spacing-5xl);
+}

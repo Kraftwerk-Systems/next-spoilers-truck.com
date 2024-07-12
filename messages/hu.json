@@ -128,6 +128,26 @@
       "communication-value": "Kommunikáció",
       "catalog-value": "Széles katalógus",
       "flexible-service-value": "Rugalmasság"
+    },
+    "MessageBox": {
+      "heading1": "Gyors ",
+      "heading2": "Üzenet",
+      "heading3": "",
+      "subheading": "Küldje el email-címét, és hamarosan felvesszük Önnel a kapcsolatot.",
+      "form": {
+        "heading1": "Adja meg az",
+        "heading2": "Email-címét",
+        "message": "Amint lehetséges, felvesszük Önnel a kapcsolatot.",
+        "placeholder": "john.deere@pelda.com",
+        "button1": "Kérelem ",
+        "button2": "Válasz",
+        "checkbox1": "Elfogadom a ",
+        "checkbox2": "Adatvédelmi Irányelveket",
+        "checkbox3": "."
+      },
+      "privacyPolicyError": "Először el kell fogadnia az Adatvédelmi Irányelveket.",
+      "submitError": "Hiba történt. Dolgozunk rajta. Kérjük, próbálja meg újra!",
+      "messageSuccess": "Az üzenetét sikeresen elküldtük!"
     }
   },
   "home": {

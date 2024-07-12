@@ -128,6 +128,26 @@
       "communication-value": "Communication",
       "catalog-value": "Large Catalog",
       "flexible-service-value": "Flexible Value Service"
+    },
+    "MessageBox": {
+      "heading1": " Send ",
+      "heading2": "Message",
+      "heading3": "",
+      "subheading": "If you have any questions, feel free to ask.",
+      "form": {
+        "heading1": "Enter your",
+        "heading2": "Email",
+        "message": "We will contact you as soon as possible.",
+        "placeholder": "john.deere@example.com",
+        "button1": "Request ",
+        "button2": "Reply",
+        "checkbox1": "I accept the ",
+        "checkbox2": "Privacy Policy",
+        "checkbox3": "."
+      },
+      "privacyPolicyError": "You must accept the privacy policy first.",
+      "submitError": "An error has occurred. We are working on it. Please try again!",
+      "messageSuccess": "Your message has been sent successfully!"
     }
   },
   "home": {
