@@ -1,4 +1,5 @@
 import HomeHero from "@/sections/HomeHero/HomeHero";
+import HomeProductHighlight from "@/sections/HomeProductHighlight/HomeProductHighlight";
 import HomeShopHighlight from "@/sections/HomeShopHighlight/HomeShopHighlight";
 import { getLocale } from "next-intl/server";
 
@@ -9,6 +10,7 @@ export default async function Index() {
     <main className="Home">
       <HomeHero />
       <HomeShopHighlight locale={locale} />
+      <HomeProductHighlight />
     </main>
   );
 }

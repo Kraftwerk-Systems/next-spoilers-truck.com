@@ -24,6 +24,9 @@
 @import "../components/ShopLink/ShopLink.module.scss";
 @import "../components/BrandCard/BrandCard.module.scss";
 @import "../components/Loader/Loader.module.scss";
+@import "../components/HighlightsTable/HighlightsTable.module.scss";
+@import "../components/HighlightsCarousel/HighlightsCarousel.module.scss";
+@import "../components/Controls/Controls.module.scss";
 
 /* Import component styles */
 @import "components/_buttons.scss";
@@ -38,6 +41,7 @@
 /* Section styles */
 @import "../sections/HomeHero/HomeHero.module.scss";
 @import "../sections/HomeShopHighlight/HomeShopHighlight.module.scss";
+@import "../sections/HomeProductHighlight/HomeProductHighlight.module.scss";
 
 /* Page styles */
 @import "../app/[lang]/page.module.scss";

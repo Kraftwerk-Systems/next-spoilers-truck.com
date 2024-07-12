@@ -51,6 +51,21 @@
         "functionality": "Funkcionalitás",
         "declineAll": "Összes elutasítása"
       }
+    },
+    "highlightsTable": {
+      "top7": "Top 11 ",
+      "products": "Legnépszerűbb Termék",
+      "id": "Cikkszám",
+      "brand": "Márka",
+      "name": "Név"
+    },
+    "controls": {
+      "previous": "Előző",
+      "next": "Következő"
+    },
+    "highlightsCarousel": {
+      "view-in-shop": "Megtekingés ",
+      "now": "a Shopban"
     }
   },
   "home": {
@@ -87,6 +102,14 @@
       "assortment-heading": "Széles választék ",
       "assortment-heading-bold": "Top Márkákból",
       "button-cta": "Kínálat megtekintése"
+    },
+    "productHighlight": {
+      "tagline": "Vásárlóink kedvenc termékei",
+      "heading": "Kiemelt ",
+      "heading-bold": "Termékeink",
+      "lead-1": "Nézze meg, mit vásárolnak mások.",
+      "lead-2": "Merítsen inspirációt a ",
+      "lead-bold": "legnépszerűbb termékeinkből."
     }
   },
   "notFound": {

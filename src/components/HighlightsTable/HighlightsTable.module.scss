@@ -1,0 +1,62 @@
+.HightlightsTable {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  align-items: center;
+
+  &__title {
+    color: var(--primary-900);
+    font-size: var(--font-xl);
+  }
+  &__id {
+    color: var(--grayscale-700);
+    width: 6rem;
+    max-width: 6rem;
+  }
+  &__brand {
+    width: 8rem;
+    max-width: 8rem;
+  }
+  &__name {
+    width: 13rem;
+    max-width: 13rem;
+  }
+  &__item {
+    transition: all 0.3s ease;
+    color: var(--grayscale-700);
+    &--active {
+      background-color: var(--secondary-200);
+      color: var(--primary-900);
+
+      & td {
+        color: var(--primary-900);
+        font-weight: var(--font-bold);
+      }
+    }
+  }
+}
+
+table {
+  box-shadow: var(--shadow-float-base);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--grayscale-0);
+}
+thead {
+  background-color: var(--primary-900);
+  color: var(--grayscale-0);
+  font-size: var(--font-md);
+  font-weight: var(--font-medium);
+  text-transform: uppercase;
+}
+td {
+  color: var(--grayscale-700);
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+td,
+th {
+  padding: var(--spacing-sm);
+}

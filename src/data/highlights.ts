@@ -1,0 +1,81 @@
+const highlights = [
+  {
+    id: "10033R",
+    brand: "Renault",
+    name: "Master TOP",
+    img: "/img/products/10033R.webp",
+    link: "https://shop.spoilers-truck.com/products/10033R",
+  },
+  {
+    id: "10017F",
+    brand: "Ford",
+    name: "Transit 2015+ TOP+SIDE",
+    img: "/img/products/10017F.webp",
+    link: "https://shop.spoilers-truck.com/products/10017F",
+  },
+  {
+    id: "10033O-10133",
+    brand: "Opel",
+    name: "Movano TOP+SIDE",
+    img: "/img/products/10033O.webp",
+    link: "https://shop.spoilers-truck.com/products/10033O",
+  },
+  {
+    id: "10018I",
+    brand: "Iveco",
+    name: "Daily 2015+ TOP+SIDE",
+    img: "/img/products/10018I.webp",
+    link: "https://shop.spoilers-truck.com/products/10018I",
+  },
+  {
+    id: "10027F",
+    brand: "Ford",
+    name: "Transit 2015+ TOP",
+    img: "/img/products/10027F.webp",
+    link: "https://shop.spoilers-truck.com/products/10027F",
+  },
+  {
+    id: "10010F",
+    brand: "Fiat",
+    name: "Ducato 2006+ TOP",
+    img: "/img/products/10010F.webp",
+    link: "https://shop.spoilers-truck.com/products/10010F",
+  },
+  {
+    id: "10011F",
+    brand: "Fiat",
+    name: "Ducato 2006+ TOP",
+    img: "/img/products/10011F.webp",
+    link: "https://shop.spoilers-truck.com/products/10011F",
+  },
+  {
+    id: "10015F",
+    brand: "Fiat",
+    name: "Ducato 2006+ TOP+SIDE",
+    img: "/img/products/10015F.webp",
+    link: "https://shop.spoilers-truck.com/products/10015F",
+  },
+  {
+    id: "10015P",
+    brand: "Peugeot",
+    name: "Boxer 2006+ TOP",
+    img: "/img/products/10015P.webp",
+    link: "https://shop.spoilers-truck.com/products/10015P",
+  },
+  {
+    id: "10001C",
+    brand: "Citroen",
+    name: "Jumper 2006+ TOP",
+    img: "/img/products/10001C.webp",
+    link: "https://shop.spoilers-truck.com/products/10001C",
+  },
+  {
+    id: "10016M",
+    brand: "Mercedes",
+    name: "Sprinter 2006+ TOP+SIDE",
+    img: "/img/products/10016M.webp",
+    link: "https://shop.spoilers-truck.com/products/10016M",
+  },
+];
+
+export default highlights;

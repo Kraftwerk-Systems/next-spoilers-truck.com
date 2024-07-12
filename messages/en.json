@@ -51,6 +51,21 @@
         "functionality": "Functionality",
         "declineAll": "Decline All"
       }
+    },
+    "highlightsTable": {
+      "top7": "Top 11 ",
+      "products": "Most Popular Products",
+      "id": "Id",
+      "brand": "Brand",
+      "name": "Name"
+    },
+    "controls": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "highlightsCarousel": {
+      "view-in-shop": "View in shop ",
+      "now": "now"
     }
   },
   "home": {
@@ -87,6 +102,14 @@
       "assortment-heading": "A Wide Assortment of ",
       "assortment-heading-bold": "Top Brands",
       "button-cta": "View Our Selection"
+    },
+    "productHighlight": {
+      "tagline": "Our customer's favorite picks",
+      "heading": "Product ",
+      "heading-bold": "Highlights",
+      "lead-1": "See what other customers are buying.",
+      "lead-2": "Get inspired by our ",
+      "lead-bold": "top products."
     }
   },
   "notFound": {
