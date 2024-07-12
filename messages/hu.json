@@ -148,6 +148,26 @@
       "privacyPolicyError": "Először el kell fogadnia az Adatvédelmi Irányelveket.",
       "submitError": "Hiba történt. Dolgozunk rajta. Kérjük, próbálja meg újra!",
       "messageSuccess": "Az üzenetét sikeresen elküldtük!"
+    },
+    "footer": {
+      "sitemap": "Oldaltérkép",
+      "homeScreen": "Kezdőképernyő",
+      "spoilerAdvantages": "Spoiler Előnyök",
+      "aboutUs": "Rólunk",
+      "tenders": "Pályázatok",
+      "contact": "Kapcsolat",
+      "productCatalogue": "Termékkatalógus",
+      "topProducts": "Top Termékek",
+      "newProducts": "Új Termékek",
+      "ourBrands": "Márkáink",
+      "catalogueSearch": "Keresés a Katalógusban",
+      "connectWithUs": "Csatlakozz Hozzánk",
+      "phone": "Telefon",
+      "mobile": "Mobil",
+      "Footer__cta-title": "Kezdje el ma megtakarítani az üzemanyagköltségeken egy új spoilerrel.",
+      "Footer__cta-button": "IRÁNY A BOLTUNK MOST",
+      "privacyPolicy": "Adatvédelmi Irányelvek",
+      "termsAndConditions": "Felhasználási Feltételek"
     }
   },
   "home": {

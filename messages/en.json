@@ -148,6 +148,26 @@
       "privacyPolicyError": "You must accept the privacy policy first.",
       "submitError": "An error has occurred. We are working on it. Please try again!",
       "messageSuccess": "Your message has been sent successfully!"
+    },
+    "footer": {
+      "sitemap": "Sitemap",
+      "homeScreen": "Home Screen",
+      "spoilerAdvantages": "Spoiler Advantages",
+      "aboutUs": "About Us",
+      "tenders": "Tenders",
+      "contact": "Contact",
+      "productCatalogue": "Product Catalogue",
+      "topProducts": "Top Products",
+      "newProducts": "New Products",
+      "ourBrands": "Our Brands",
+      "catalogueSearch": "Search The Catalogue",
+      "connectWithUs": "Connect With Us",
+      "phone": "Phone",
+      "mobile": "Mobile",
+      "Footer__cta-title": "Start saving on fuel costs today with a new spoiler.",
+      "Footer__cta-button": "GO TO OUR SHOP NOW",
+      "privacyPolicy": "Privacy Policy",
+      "termsAndConditions": "Terms and Conditions"
     }
   },
   "home": {

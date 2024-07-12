@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import HomeAbout from "@/sections/HomeAbout/HomeAbout";
 import HomeAdvantages from "@/sections/HomeAdvantages/HomeAdvantages";
 import HomeContact from "@/sections/HomeContact/HomeContact";
@@ -19,6 +20,7 @@ export default async function Index() {
       <HomeROI locale={locale} />
       <HomeAbout />
       <HomeContact locale={locale} />
+      <Footer />
     </main>
   );
 }
