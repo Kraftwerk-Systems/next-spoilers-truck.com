@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "@/styles/main.scss";
 import Header from "@/components/Header/Header";
+import CookiesBar from "@/components/CookiesBar/CookiesBar";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -24,6 +25,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />
+          <CookiesBar />
           {children}
         </NextIntlClientProvider>
       </body>

@@ -29,6 +29,31 @@
         "ro": "Romanian",
         "sk": "Slovak"
       }
+    },
+    "contactCard": {
+      "address": "Address",
+      "facility": "Facility",
+      "telephone": "Telephone",
+      "mobile": "Mobile"
+    },
+    "cookies": {
+      "cookiesBar": {
+        "heading": "Cookies Policy",
+        "text": "We use cookies to improve your experience. By using our site, you agree to our cookie policy.",
+        "link": "Learn more",
+        "accept": "Accept",
+        "manage": "Manage Cookies"
+      },
+      "card": {
+        "heading": "This website uses cookies",
+        "description": "This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy.",
+        "save": "Save Preferences",
+        "strictlyNecessary": "Strictly Necessary",
+        "performance": "Performance",
+        "targeting": "Targeting",
+        "functionality": "Functionality",
+        "declineAll": "Decline All"
+      }
     }
   }
 }

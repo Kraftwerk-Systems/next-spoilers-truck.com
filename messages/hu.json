@@ -29,6 +29,31 @@
         "ro": "Román",
         "sk": "Szlovák"
       }
+    },
+    "contactCard": {
+      "address": "Cím",
+      "facility": "Székhely",
+      "telephone": "Telefon",
+      "mobile": "Mobil"
+    },
+    "cookies": {
+      "cookiesBar": {
+        "heading": "Cookie Szabályzat",
+        "text": "Cookie-kat használunk a felhasználói élmény javítására. Oldalunk használatával beleegyezik cookie-szabályzatunkba.",
+        "link": "Tudjon meg többet",
+        "accept": "Elfogad",
+        "manage": "Cookie-k kezelése"
+      },
+      "card": {
+        "heading": "Ez a weboldal cookie-kat használ",
+        "description": "Ez a weboldal cookie-kat használ a felhasználói élmény javítása érdekében. Weboldalunk használatával hozzájárul az összes cookie használatához cookie-szabályzatunknak megfelelően.",
+        "save": "Beállítások mentése",
+        "strictlyNecessary": "Szükségszerűen szükséges",
+        "performance": "Teljesítmény",
+        "targeting": "Célzás",
+        "functionality": "Funkcionalitás",
+        "declineAll": "Összes elutasítása"
+      }
     }
   }
 }

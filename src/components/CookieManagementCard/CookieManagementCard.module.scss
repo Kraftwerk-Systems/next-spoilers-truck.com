@@ -1,0 +1,112 @@
+/* CookieManagementCard.scss */
+
+.CookieManagementCard {
+  width: 100%;
+  background-image: var(--gradient-dark-1b);
+  max-width: 25rem;
+  color: var(--grayscale-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  border-top-right-radius: 3px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include breakpoint("sm") {
+    height: var(--viewportHeight);
+    width: var(--viewportWidth);
+    max-width: var(--viewportWidth);
+  }
+
+  & h4 {
+    color: var(--grayscale-100);
+    font-size: var(--font-xl);
+    font-weight: var(--font-bold);
+    width: 100%;
+    text-align: left;
+  }
+
+  & p {
+    color: var(--grayscale-300);
+    font-size: var(--font-md);
+  }
+
+  &__option-list {
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+
+  &__option-item {
+    font-size: var(--font-lg);
+    font-weight: var(--font-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover label {
+      color: var(--primary-300) !important;
+    }
+
+    &:hover label.disabled {
+      color: var(--grayscale-300) !important;
+    }
+  }
+
+  &__buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__save {
+    width: 15rem !important;
+    max-width: 15rem !important;
+    min-width: 15rem !important;
+    height: 3.5rem !important;
+    padding: var(--spacing-sm) !important;
+
+    @include breakpoint("sm") {
+      padding: var(--spacing-md) !important;
+    }
+  }
+
+  &__decline {
+    width: 15rem !important;
+    max-width: 15rem !important;
+    min-width: 15rem !important;
+    height: 3.5rem !important;
+    padding: var(--spacing-sm) !important;
+  }
+}
+
+/* ANIMATION */
+
+/* Initial state (hidden) */
+.CookieManagementCard {
+  visibility: hidden; /* Initially hidden */
+  opacity: 0;
+  transform: translateY(0%);
+  transition: visibility 0s linear 0.5s, opacity 0.5s ease-out 0.5s,
+    transform 0.5s ease-in-out;
+}
+
+/* Final state (visible) */
+.CookieManagementCard--visible {
+  transform: translateY(-100%);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0s ease-out 0s, transform 0.5s ease-in-out;
+}
