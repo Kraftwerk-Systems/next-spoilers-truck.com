@@ -88,5 +88,12 @@
       "assortment-heading-bold": "Top Márkákból",
       "button-cta": "Kínálat megtekintése"
     }
+  },
+  "notFound": {
+    "logoAlt": "Car Trade Logó",
+    "heading": "Az oldal nem található.",
+    "message": "Lehet, hogy a keresett oldalt átirányították vagy eltávolították. Kérjük, ellenőrizze az URL-t, és próbálja újra. Ha továbbra is problémába ütközik, forduljon hozzánk.",
+    "message2": "Hibakód: 404",
+    "backToHome": "Vissza a kezdőlapra"
   }
 }

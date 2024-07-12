@@ -88,5 +88,12 @@
       "assortment-heading-bold": "Top Brands",
       "button-cta": "View Our Selection"
     }
+  },
+  "notFound": {
+    "logoAlt": "Car Trade Logo",
+    "heading": "Page Not Found",
+    "message": "The page you're looking for might have been re-routed or removed. Please check the URL and try again. If you're still having trouble, please contact us.",
+    "message2": "Error: 404",
+    "backToHome": "Back to Home"
   }
 }

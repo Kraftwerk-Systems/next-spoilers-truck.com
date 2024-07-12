@@ -1,0 +1,134 @@
+.NotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: 100svh;
+  overflow: hidden;
+
+  //margin-top: var(--spacing-xl);
+  //padding: var(--spacing-md);
+
+  background-image: var(--gradient-section-bg-1-45deg);
+
+  &__logo {
+    width: 15rem;
+    opacity: 0.85;
+    margin-bottom: var(--spacing-md);
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: -12rem;
+    text-align: center;
+
+    & h1 {
+      @include typography(var(--font-3xl), var(--font-bold), 1px, 1.25, var(--grayscale-900));
+      line-height: 1.25 !important;
+    }
+    & p {
+      @include typography(calc(var(--font-sm) * 1.1), var(--font-regular), 0px, 1.75, var(--grayscale-800));
+      margin: 0 auto;
+      text-align: center;
+      margin-top: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      max-width: 35rem;
+
+      & + p {
+        margin-top: var(--spacing-sm);
+        font-size: var(--font-lg);
+        text-transform: uppercase;
+        font-weight: var(--font-bold);
+        margin-bottom: var(--spacing-sm);
+        color: var(--grayscale-300);
+      }
+    }
+  }
+
+  &__icon {
+    min-width: 60rem;
+    min-height: 51rem;
+    pointer-events: none;
+
+    &--landscape {
+      display: none;
+    }
+
+    &--portrait {
+      display: block;
+    }
+    @media (min-aspect-ratio: 1/1) {
+      &--landscape {
+        display: block;
+      }
+      &--portrait {
+        display: none;
+      }
+    }
+  }
+
+  &__button {
+    margin-top: -10rem;
+    box-shadow: 0 0 3rem 0 rgba(55, 64, 78, 0.25) !important;
+    font-size: var(--font-md) !important;
+    min-height: 3.5rem;
+    min-width: 16rem !important;
+  }
+}
+
+@media (max-width: 1920px) {
+  .NotFound {
+    &__title {
+      margin-bottom: -9rem;
+    }
+    &__icon {
+      min-width: 50rem;
+      min-height: 41rem;
+    }
+    &__button {
+      margin-top: -7rem;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .NotFound {
+    &__title {
+      margin-bottom: -6rem;
+    }
+    &__icon {
+      min-width: 40rem;
+      min-height: 31rem;
+    }
+    &__button {
+      margin-top: -5rem;
+      height: 3.5rem;
+    }
+
+    & h1 {
+      @include typography(calc(var(--font-3xl) * 0.9), var(--font-semibold), 1px, 1.5, var(--grayscale-900));
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .NotFound {
+    &__logo {
+      width: 12rem;
+      margin-bottom: var(--spacing-lg);
+    }
+    &__title {
+      margin-bottom: -3rem;
+    }
+    &__icon {
+      min-width: 30rem;
+      min-height: 21rem;
+    }
+    &__button {
+      margin-top: -3rem;
+    }
+  }
+}
