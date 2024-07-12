@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; // 1rem = 16px
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-optical-sizing: auto;
+  width: var(--viewportWidth);
+  overflow-x: hidden;
+}
+
+:root {
+  font-family: "Hind Siliguri", sans-serif;
+
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Define CSS variables for consistency */
+:root {
+  --scrollbar-thumb-color: #666;
+  --scrollbar-track-color: #eee;
+  --scrollbar-hover-color: #444;
+}
+
+/* WebKit Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-hover-color);
+}
+
+/* Firefox Scrollbar Styles */
+@supports (scrollbar-color: color) {
+  html {
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+    scrollbar-width: auto;
+  }
+}
+
+/* Used for Page Transitions */
+/* Updated CSS for sliding page transitions */
+/* Updated CSS for smoother sliding page transitions */
+.container {
+  // position: relative; /* This breaks Slick, I decided to comment it out. */
+  // overflow-x: hidden; /* Prevent horizontal scrollbar during transition */
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Entering from the right */
+
+.page-enter {
+  opacity: 0;
+  // transform: translateX(100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  // transform: translateX(0);
+  transition: opacity 400ms, transform 400ms;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  // transform: translateX(-100%);
+  transition: opacity 400ms, transform 400ms;
+}
+
+/* Modal backdrop */
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
+  backdrop-filter: blur(3px);
+  z-index: 150; /* Ensure this is higher than other content but below modal/dialog elements */
+  display: none; /* Initially hidden */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.modal-backdrop.show {
+  display: block; /* Show when needed */
+}

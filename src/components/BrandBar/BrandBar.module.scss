@@ -1,0 +1,67 @@
+.BrandBar {
+  // position: absolute;
+  // left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem var(--vp_X_Pad_LG);
+  background-color: var(--primary-1000);
+  gap: 1rem;
+  row-gap: 0.25rem;
+
+  height: 2.5rem;
+  top: -2.5rem;
+  overflow: hidden;
+
+  &__wrapper {
+    //  position: absolute;
+    z-index: 120;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-1000);
+
+    &--invisible {
+      display: none;
+    }
+  }
+
+  a {
+    color: var(--primary-100) !important;
+    font-weight: 600;
+    font-size: var(--font-sm);
+
+    @media (hover: hover) {
+      &:hover {
+        color: var(--secondary-300) !important;
+        text-decoration: none !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1250px) {
+  .BrandBar {
+    height: 4.5rem;
+    top: -4.5rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .BrandBar {
+    height: 7rem;
+    top: -7rem;
+    padding: 0.5rem var(--vp_X_Pad_MD);
+  }
+}
+
+@media (max-width: 350px) {
+  .BrandBar {
+    a {
+      font-size: var(--font-xs) !important;
+    }
+  }
+}

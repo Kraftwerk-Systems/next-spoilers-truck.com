@@ -1,0 +1,95 @@
+// SCSS Animations
+
+@keyframes slideInAndOut {
+  0%,
+  100% {
+    left: -110%; // Start and end outside of the container to the left
+  }
+  5%,
+  25% {
+    left: 0; // Slide in quickly and cover the text
+  }
+  30%,
+  70% {
+    left: 0; // Stay covering the text
+  }
+  75%,
+  95% {
+    left: 110%; // Quickly exit to the right
+  }
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scaleWaveWithPause {
+  0%,
+  35%,
+  100% {
+    transform: scale(1);
+  }
+  50%,
+  85% {
+    transform: scale(1.25);
+  }
+}
+
+@keyframes zoomIn {
+  0%,
+  1% {
+    background-size: 120%;
+  }
+  100% {
+    background-size: 180%;
+  }
+}
+
+@keyframes highlightWave {
+  0%,
+  30%,
+  70%,
+  100% {
+    //  transform: translateY(0);
+    background-color: rgba(53, 132, 177, 0.05);
+  }
+
+  50% {
+    //  transform: translateY(-10px);
+    background-color: rgba(26, 255, 118, 0.3);
+  }
+}
+
+@keyframes highlight {
+  0%,
+  20% {
+    background-position: 100% 0;
+  }
+  30%,
+  50%,
+  60%,
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@media (min-width: 660px) {
+  .highlighted-text {
+    display: inline;
+    padding: 0.25rem 1rem;
+    border-radius: 2px;
+    background-image: linear-gradient(
+      to right,
+      rgba(187, 134, 42, 0.75) 50%,
+      rgba(56, 151, 220, 0.2) 50%
+    );
+    background-size: 200% 100%;
+    animation: highlight 8s ease-in-out forwards;
+  }
+}

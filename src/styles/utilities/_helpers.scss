@@ -1,0 +1,151 @@
+// SCSS helpers
+    
+    
+    /* Base styles (applies to all devices, will be overridden as needed) */
+.dTabOnly,
+.dLapOnly,
+.dLapDown,
+.dTabDown,
+.dMobDown {
+  display: none !important;
+}
+
+/* Laptop and above */
+@media (max-width: 1440px) {
+  .dLapOnly {
+    display: initial !important;
+  }
+  .dLapDown,
+  .dTabDown,
+  .dMobDown {
+    display: initial !important;
+  }
+  .dTabOnly {
+    display: none !important;
+  }
+}
+
+/* Tablet and above */
+@media (max-width: 992px) {
+  .dTabOnly,
+  .dLapDown,
+  .dTabDown {
+    display: initial !important;
+  }
+  .dLapOnly {
+    display: none !important;
+  }
+}
+
+/* Mobile and below */
+@media (max-width: 430px) {
+  .dLapDown,
+  .dTabDown,
+  .dMobDown {
+    display: initial !important;
+  }
+  .dLapOnly,
+  .dTabOnly {
+    display: none !important;
+  }
+}
+
+/* Letter Transformations */
+.u-uc {
+  text-transform: uppercase !important;
+}
+
+.u-scaps {
+  font-variant: small-caps !important;
+}
+
+.u-italic {
+  font-style: italic !important;
+}
+
+/* Font Weights */
+
+.u-light {
+  font-weight: var(--font-light) !important;
+}
+
+.u-regular {
+  font-weight: var(--font-regular) !important;
+}
+
+.u-medium {
+  font-weight: var(--font-medium) !important;
+}
+
+.u-semibold {
+  font-weight: var(--font-semibold) !important;
+}
+
+.u-bold {
+  font-weight: var(--font-bold) !important;
+}
+
+/* Letter Spacings */
+
+.u-ls-0_50 {
+  letter-spacing: 0.5px !important;
+}
+
+.u-ls-1_00 {
+  letter-spacing: 1px !important;
+}
+
+.u-ls-3_00 {
+  letter-spacing: 3px !important;
+}
+
+.u-ls-5_00 {
+  letter-spacing: 5px !important;
+}
+
+/* Line Heights */
+
+.u-lh-1_00 {
+  line-height: 1 !important;
+}
+
+.u-lh-1_25 {
+  line-height: 1.25 !important;
+}
+
+.u-lh-1_50 {
+  line-height: 1.5 !important;
+}
+
+.u-lh-2_00 {
+  line-height: 2 !important;
+}
+
+/* Text Alignments */
+
+.u-left {
+  text-align: left !important;
+}
+
+.u-center {
+  text-align: center !important;
+}
+
+.u-right {
+  text-align: right !important;
+}
+
+/* Display */
+
+.u-block {
+  display: block !important;
+}
+
+.u-inline {
+  display: inline !important;
+}
+
+.u-inline-block {
+  display: inline-block !important;
+}
+    

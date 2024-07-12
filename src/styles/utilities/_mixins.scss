@@ -1,0 +1,72 @@
+// SCSS Mixins
+
+@mixin flexCenter($direction: row, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flexCenterColumn($justify: center, $align: center) {
+  @include flexCenter(column, $justify, $align);
+}
+
+@mixin flexCenterRow($justify: center, $align: center) {
+  @include flexCenter(row, $justify, $align);
+}
+
+$breakpoints: (
+  "3xs": 0,
+  "2xs": 320px,
+  "xs": 430px,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "2xl": 1440px,
+  "3xl": 1600px,
+  "4xl": 1920px,
+  "5xl": 2250px,
+  "6xl": 2560px,
+  "7xl": 2800px,
+  "8xl": 3100px,
+  "9xl": 3400px,
+  "10xl": 3700px,
+);
+
+// Media query mixin
+@mixin breakpoint($name, $type: "max") {
+  @if map-has-key($breakpoints, $name) {
+    $width: map-get($breakpoints, $name);
+    @if $type == "min" {
+      @media (min-width: $width) {
+        @content;
+      }
+    } @else if $type == "max" {
+      @media (max-width: $width) {
+        @content;
+      }
+    } @else {
+      @warn "Invalid type '#{$type}', use 'min' or 'max'";
+    }
+  } @else {
+    @warn "Invalid breakpoint name '#{$name}'";
+  }
+}
+
+// Font style generator mixin
+@mixin typography(
+  $font-size,
+  $font-weight: var(--font-regular),
+  $letter-spacing: 0,
+  $line-height: inherit,
+  $color: inherit,
+  $font-family: inherit
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+  color: $color;
+  font-family: $font-family;
+}

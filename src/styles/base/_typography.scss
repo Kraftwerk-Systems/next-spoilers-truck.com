@@ -1,0 +1,96 @@
+// Typography styles
+
+*,
+*:before,
+*:after {
+  font-family: "Hind Siliguri", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+// Typography styles
+
+h1,
+.h1 {
+  @include typography(var(--font-5xl), var(--font-bold), 0.5px);
+  font-family: "Montserrat", sans-serif !important;
+}
+
+h2,
+.h2 {
+  @include typography(var(--font-4xl), var(--font-bold), 0.5px);
+  font-family: "Montserrat", sans-serif !important;
+}
+
+h3,
+.h3 {
+  @include typography(var(--font-3xl), var(--font-medium), 0.5px);
+  font-family: "Montserrat", sans-serif !important;
+}
+
+h4,
+.h4 {
+  @include typography(
+    var(--font-2xl),
+    var(--font-regular),
+    0.5px,
+    inherit,
+    var(--grayscale-700)
+  );
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.lead {
+  @include typography(var(--font-lg), var(--font-regular));
+}
+
+body,
+p,
+.body {
+  @include typography(var(--font-md), var(--font-regular));
+}
+
+.caption {
+  @include typography(
+    var(--font-sm),
+    var(--font-light),
+    0,
+    inherit,
+    var(--grayscale-500)
+  );
+}
+
+.small {
+  @include typography(
+    var(--font-xs),
+    var(--font-light),
+    0,
+    inherit,
+    var(--grayscale-400)
+  );
+}
+
+a,
+.link {
+  @include typography(
+    var(--font-md),
+    var(--font-medium),
+    0,
+    inherit,
+    var(--info-500)
+  );
+
+  transition: color 0.15s ease;
+  text-decoration: none;
+}
+
+a:hover,
+.link:hover {
+  text-decoration: underline;
+  color: var(--info-700);
+}

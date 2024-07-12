@@ -1,0 +1,34 @@
+{
+  "Index": {
+    "title": "Szia világ!"
+  },
+  "common": {
+    "header": {
+      "menu": "Menü",
+      "navlist": {
+        "home": "Kezdőlap",
+        "advantages": "Előnyök",
+        "about": "Rólunk",
+        "tenders": "Pályázatok",
+        "contact": "Kapcsolat",
+        "spoiler": "Spoiler",
+        "shop": "Shop",
+        "close": "Menü bezárása"
+      },
+      "language": {
+        "selector1": "",
+        "selector2": "Nyelv",
+        "selector3": "Választása",
+        "close": "Bezárás",
+        "en": "Angol",
+        "hu": "Magyar",
+        "de": "Német",
+        "it": "Olasz",
+        "slo": "Szlovén",
+        "hr": "Horvát",
+        "ro": "Román",
+        "sk": "Szlovák"
+      }
+    }
+  }
+}

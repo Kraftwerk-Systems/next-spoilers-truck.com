@@ -1,0 +1,14 @@
+.slash-group {
+  .thin-slash {
+    color: var(--secondary-600);
+    font-size: var(--font-4xl);
+    font-weight: var(--font-bold);
+  }
+
+  .thick-slash {
+    color: var(--secondary-500);
+    font-size: var(--font-4xl);
+    font-weight: var(--font-black);
+    margin-left: -8px;
+  }
+}

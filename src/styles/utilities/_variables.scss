@@ -1,0 +1,176 @@
+// CSS Variables
+
+:root {
+  /* Font weights */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-black: 900;
+
+  /* Font sizes */
+  --font-2xs: 0.62rem; /* Extra Small */
+  --font-xs: 0.75rem; /* Small */
+  --font-sm: 0.875rem; /* Medium */
+  --font-md: 1rem; /* Medium */
+  --font-lg: 1.25rem; /* Large */
+  --font-xl: 1.5rem; /* Extra Large */
+  --font-2xl: 2rem; /* 2X Large */
+  --font-3xl: 2.5rem; /* 3X Large */
+  --font-4xl: 3rem; /* 4X Large */
+  --font-5xl: 4rem; /* 5X Large */
+
+  --spacing-2xs: 0.2rem; /* 3.2px */
+  --spacing-xs: 0.3rem; /* 4.8px */
+  --spacing-sm: 0.6rem; /* 9.6px */
+  --spacing-md: 1.25rem; /* 20px */
+  --spacing-lg: 2.5rem; /* 40px */
+  --spacing-xl: 3.75rem; /* 60px */
+  --spacing-2xl: 5rem; /* 80px */
+  --spacing-3xl: 7.5rem; /* 120px */
+  --spacing-4xl: 10rem; /* 160px */
+  --spacing-5xl: 15rem; /* 240px */
+  --spacing-6xl: 18.75rem; /* 300px */
+
+  --viewportWidth: 100vw;
+  --viewportHeight: 100vh;
+
+  --MinMax_LG: 56.25rem; /* 900px / 16px */
+  --MinMax_MD: 37.5rem; /* 600px / 16px */
+  --MinMax_SM: 25rem; /* 400px / 16px */
+  --MinMax_XS: 18.75rem; /* 300px / 16px */
+}
+
+@media (max-width: 1920px) {
+  :root {
+    --spacing-2xs: 0.2rem; /* 3.2px */
+    --spacing-xs: 0.3rem; /* 4.8px */
+    --spacing-sm: 0.6rem; /* 9.6px */
+    --spacing-md: 1.25rem; /* 20px */
+    --spacing-lg: 2.5rem; /* 40px */
+    --spacing-xl: 3.75rem; /* 60px */
+    --spacing-2xl: 5rem; /* 80px */
+    --spacing-3xl: 7.5rem; /* 120px */
+    --spacing-4xl: 10rem; /* 160px */
+    --spacing-5xl: 15rem; /* 240px */
+    --spacing-6xl: 18.75rem; /* 300px */
+  }
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --spacing-2xs: 0.2rem; /* 3.2px */
+    --spacing-xs: 0.25rem; /* 4px */
+    --spacing-sm: 0.55rem; /* 8.8px */
+    --spacing-md: 1.1rem; /* 17.6px */
+    --spacing-lg: 2.25rem; /* 36px */
+    --spacing-xl: 3.4rem; /* 54.4px */
+    --spacing-2xl: 4.5rem; /* 72px */
+    --spacing-3xl: 6.75rem; /* 108px */
+    --spacing-4xl: 9rem; /* 144px */
+    --spacing-5xl: 13.5rem; /* 216px */
+    --spacing-6xl: 16.9rem; /* 270.4px */
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --spacing-2xs: 0.15rem; /* 2.4px */
+    --spacing-xs: 0.25rem; /* 4px */
+    --spacing-sm: 0.5rem; /* 8px */
+    --spacing-md: 1rem; /* 16px */
+    --spacing-lg: 2rem; /* 32px */
+    --spacing-xl: 3rem; /* 48px */
+    --spacing-2xl: 4rem; /* 64px */
+    --spacing-3xl: 6rem; /* 96px */
+    --spacing-4xl: 8rem; /* 128px */
+    --spacing-5xl: 12rem; /* 192px */
+    --spacing-6xl: 15rem; /* 240px */
+  }
+}
+
+@media (max-width: 430px) {
+  :root {
+    --spacing-2xs: 0.15rem; /* 2.4px */
+    --spacing-xs: 0.2rem; /* 3.2px */
+    --spacing-sm: 0.4rem; /* 6.4px */
+    --spacing-md: 0.8rem; /* 12.8px */
+    --spacing-lg: 1.6rem; /* 25.6px */
+    --spacing-xl: 2.45rem; /* 39.2px */
+    --spacing-2xl: 3.25rem; /* 52px */
+    --spacing-3xl: 4.9rem; /* 78.4px */
+    --spacing-4xl: 6.5rem; /* 104px */
+    --spacing-5xl: 9.75rem; /* 156px */
+    --spacing-6xl: 12.2rem; /* 195.2px */
+  }
+}
+
+@media (min-width: 2501px) {
+  :root {
+    --vp_X_Pad_LG: calc((100vw - (2500px * 0.7)) / 2); /* 192/1920 */
+    --vp_X_Pad_MD: calc((100vw - (2500px * 0.85)) / 2); /* 96/1920 */
+  }
+}
+
+@media (max-width: 2500px) {
+  :root {
+    --vp_X_Pad_LG: 15%; /* 192/1920 */
+    --vp_X_Pad_MD: 7.5%; /* 96/1920 */
+  }
+}
+
+@media (max-width: 2200px) {
+  :root {
+    --vp_X_Pad_LG: 10%; /* 192/1920 */
+    --vp_X_Pad_MD: 5%; /* 96/1920 */
+  }
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --vp_X_Pad_LG: 5%; /* 72/1440 */
+    --vp_X_Pad_MD: 2.5%; /* 36/1440 */
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --vp_X_Pad_LG: 3.226%; /* 32/992 */
+    --vp_X_Pad_MD: 3.226%; /* 32/992 */
+  }
+}
+
+@media (max-width: 430px) {
+  :root {
+    --vp_X_Pad_LG: 1rem; /* Fixed padding for mobile */
+    --vp_X_Pad_MD: 1rem; /* Fixed padding for mobile */
+  }
+}
+
+@media (max-width: 1920px) {
+  :root {
+    --MinMax_LG: 46.875rem; /* 750px / 16px */
+    --MinMax_MD: 31.25rem; /* 500px / 16px */
+    --MinMax_SM: 23.4375rem; /* 375px / 16px */
+    --MinMax_XS: 15.625rem; /* 250px / 16px */
+  }
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --MinMax_LG: 37.5rem; /* 600px / 16px */
+    --MinMax_MD: 25rem; /* 400px / 16px */
+    --MinMax_SM: 21.875rem; /* 350px / 16px */
+    --MinMax_XS: 12.5rem; /* 200px / 16px */
+  }
+}
+
+@media (max-width: 430px) {
+  :root {
+    --MinMax_LG: 25rem; /* 400px / 16px */
+    --MinMax_MD: 25rem; /* 400px / 16px */
+    --MinMax_SM: 21.875rem; /* 350px / 16px */
+    --MinMax_XS: 12.5rem; /* 200px / 16px */
+  }
+}

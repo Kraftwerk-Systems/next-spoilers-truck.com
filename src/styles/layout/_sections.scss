@@ -1,0 +1,10 @@
+.section {
+  width: 100%;
+  padding: 0 var(--vp_X_Pad_LG);
+  margin-top: var(--spacing-6xl);
+
+  &--hero {
+    padding: 0 var(--vp_X_Pad_MD);
+    margin-top: 0;
+  }
+}

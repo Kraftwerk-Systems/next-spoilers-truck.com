@@ -1,0 +1,34 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "common": {
+    "header": {
+      "menu": "Menu",
+      "navlist": {
+        "home": "Home",
+        "advantages": "Advantages",
+        "about": "About us",
+        "tenders": "Tenders",
+        "contact": "Contact",
+        "spoiler": "Spoiler",
+        "shop": "Shop",
+        "close": "Close menu"
+      },
+      "language": {
+        "selector1": "Change",
+        "selector2": "Language",
+        "selector3": "",
+        "close": "Close",
+        "en": "English",
+        "hu": "Hungarian",
+        "de": "German",
+        "it": "Italian",
+        "slo": "Slovenian",
+        "hr": "Croatian",
+        "ro": "Romanian",
+        "sk": "Slovak"
+      }
+    }
+  }
+}

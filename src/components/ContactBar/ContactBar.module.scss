@@ -1,0 +1,91 @@
+.ContactBar {
+  background-color: var(--primary-800);
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 0.5rem 5%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 80rem;
+  height: 2.5rem;
+
+  &__wrapper {
+    // position: fixed;
+    z-index: 120;
+    top: 0rem;
+
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-800);
+
+    &--visible {
+      display: flex;
+    }
+  }
+}
+
+.ContactBarItem {
+  color: var(--primary-100);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: 500;
+
+  span::selection {
+    background-color: var(--secondary-300);
+    color: var(--primary-900);
+    letter-spacing: 0.25px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .ContactBar {
+    max-width: 65rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ContactBar {
+    padding: 0.5rem var(--vp_X_Pad_MD);
+    justify-content: center;
+    gap: 5vw;
+  }
+  .ContactBarItem {
+    &--hideOnMobile {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .ContactBar {
+    gap: 1rem;
+    padding: 0.5rem 1vw;
+  }
+  .ContactBarItem {
+    span {
+      font-size: var(--font-sm);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    &__icon {
+      scale: 0.8;
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .ContactBar {
+    gap: 0.5rem;
+  }
+  .ContactBarItem {
+    span {
+      font-size: calc(var(--font-sm) * 0.9);
+    }
+  }
+}
