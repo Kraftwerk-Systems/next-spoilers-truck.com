@@ -298,5 +298,213 @@
     },
     "TendersHero__description": "Fedezze fel a Car Trade Kft. által nyert támogatásokat, amelyek tükrözik vállalkozásunk elkötelezettségét a fenntartható működési gyakorlatok és az energiahatékonyság iránt.",
     "TendersHero__counter-label": "Pályázat"
+  },
+  "privacy": {
+    "backToLastPage1": "Vissza ",
+    "backToLastPage2": "az előzőre",
+    "tagline": "Garanált GDPR-megfelelőség",
+    "heading": "Adatkezelési Politika",
+    "description": "Elkötelezettek vagyunk az Ön adatainak védelme mellett.",
+    "0": {
+      "title": "Adatvédelmi tájékoztató a weboldal látogatói számára",
+      "text--1": "A Car Trade Kft. gyártási (azon gépjárművek légterelőinek gyártása) tevékenységet folytat, aminek nyomán a szolgáltatás teljesítéséhez adatokat kezel.",
+      "text--2": "A Car Trade Kft. (a továbbiakban: Szolgáltató) a www.spoilers-truck.com weboldal (a továbbiakban: Weboldal) működtetése során, a honlapon ajánlatot kérők vagy érdeklődők, (a továbbiakban együttesen Érintett) személyes adatait kezeli."
+    },
+    "1": {
+      "title": "1. Az adatkezelő elérhetősége",
+      "text--1": "Név: Car Trade Kft.",
+      "text--2": "Székhely: 8000 Székesfehérvár, Radványi u. 46., Levelezési cím: 8008 Székesfehérvár, Pf. 8.",
+      "text--3": "Képviselő neve és telefonszáma: Massimiliano Benatti, +36 (20) 315-6600",
+      "text--4": "Email cím: info@spoilers-truck.com"
+    },
+    "2": {
+      "title": "2. A kezelt személyes adatok köre",
+      "text--1": "A felhasználóktól különböző szolgáltatások eléréséhez különböző személyes adatokat kérünk, az adattakarékosság elvét figyelembe véve. A jelen Adatvédelmi Tájékoztató kizárólag a weboldalt meglátogató természetes személyek adatainak kezelésére terjed ki, tekintettel arra, hogy személyes adatok kizárólag természetes személyek vonatkozásában értelmezhetőek.",
+      "text--2": "Nem minősülnek személyes adatnak azok az anonim információk, amelyeket a személyes azonosíthatóság kizárásával gyűjt adatkezelő, és természetes személlyel nem hozhatóak kapcsolatba, illetve azok a demográfiai adatok sem minősülnek személyes adatnak, melyeket úgy gyűjt, hogy nem kapcsolja hozzá azokat azonosítható személyek személyes adataihoz, ezáltal nem állítható fel kapcsolat természetes személlyel.",
+      "text--3": "Tételesen felsorolva a kezelt adatok köre a következők:",
+      "sub1": {
+        "title": "2.1 Az ajánlatkérők",
+        "text--1": "- Név",
+        "text--2": "- Email cím",
+        "text--3": "- Telefonszám"
+      },
+      "sub2": {
+        "title": "2.2 Érdeklődők",
+        "text--1": "- Név",
+        "text--2": "- Email cím",
+        "text--3": "- Telefonszám"
+      },
+      "sub3": {
+        "title": "2.3 Gyermekek",
+        "text--1": "A termékeink és szolgáltatásaink nem 16 év alatti személyeknek szólnak, és kérjük, hogy 16 év alatti személyek ne adjanak meg Személyes adatokat az Adatkezelő számára. Amennyiben a tudomásunkra jut, hogy 16 év alatti gyermektől személyes adatokat gyűjtöttünk be, a lehető leghamarabb megtesszük az adatok törléséhez szükséges lépéseket."
+      }
+    },
+    "3": {
+      "title": "3. Cookie (anonim igénybe vevő azonosító) kezelési tájékoztató",
+      "text--1": "Az Adatkezelő az Érintett számítógépére anonim igénybe vevő azonosítót (cookie, süti) helyez el, amely önmagában semmilyen módon nem képes az Érintett azonosítására. Kizárólag az Érintett gépének felismerésére alkalmasak, viszont IP címet nem tárolnak, és IP címet, mint személyes adatot a Szolgáltató részére nem továbbítanak. Az alkalmazott cookiek egyszerű, rövid, kisméretű szöveges fájlok. Személyes adat, vagy információ megadása nem szükséges, mivel a megoldás alkalmazásakor a Felhasználó a Szolgáltatónak nem ad át személyes adatot, az adatcsere csak és kizárólag a gépek között történik meg.",
+      "sub1": {
+        "title": "A honlap működéséhez szükséges saját cookiek",
+        "text--1": "A honlap működéséhez elengedhetetlen néhány cookie elhelyezése az érintett számítógépére, ezáltal válik a honlap betöltése gyorsabbá, ezáltal tudja a saját böngészője letárolni a honlap bizonyos információit, és ez segíti az Érintettet abban, hogy a honlap moduljai rendeltetésszerűen működjenek."
+      },
+      "sub2": {
+        "title": "LANG (Munkamenet)",
+        "text--1": "Funkció: A látogató előnyben részesített nyelvi kódját tárolja ahhoz, hogy hiba oldalakon (pl.: 404) a preferált nyelven töltődjön be az oldal és ne léptesse vissza az oldal alap nyelvéhez amennyiben az eltér."
+      },
+      "sub3": {
+        "title": "COOKIE-CONSENT (1 év)",
+        "text--1": "Funkció: Cookiebar elfogadása utáni újabb betöltést akadályozza meg. Amennyiben az Érintett az 'Elfogadom / OK / Rendben' lehetőséget választja, a választását elmentjük, így 1 évig nem fogunk további hozzájárulást kérni."
+      },
+      "sub4": {
+        "title": "Analitikai cookiek",
+        "text--1": "A weboldalunk látogatottsági adatainak és egyéb webanalitikai adatainak kinyerése érdekében a szolgáltató igénybe veszi független analitikai szerverek szolgáltatásait, név szerint a Hotjar és a Google Anatitycs szoftvert. A mérési adatok kezeléséről ezek a szolgáltatók tudnak részletes felvilágosítást nyújtani az Érintett részére.",
+        "text--2": "A Google Analytics esetében a Szolgáltató megtette azokat a beállításokat a weboldal kódjában, amely szerint a Google Analytics  anonimizálja az Érintett IP címét, így az többé nem beazonosítható, a Szolgáltató számára még átadásra nem kerül.",
+        "text--3": "Erről a technológiáról bővebben itt olvashat: https://support.google.com/analytics/answer/2763052?hl=hu",
+        "text--4": "A cél a fenti szoftverek által biztosított anonimizált információkkal a honlapunk látogatottságának, funkcionális használatának elemzése a felhasználói élmény javítása érdekében (pl: optimalizált navigáció nyújtása, egy-egy aloldalon az információk elhelyezésének sorrendje).",
+        "text--5": "Ezen mérések nem tárolnak a felhasználókról olyan adatokat, amivel a felhasználó beazonosítható lenne, se IP címet, se személyes adatokat.",
+        "text--6": "A Google Inc. adatvédelmi irányelve a http://www.google.com/intl/hu/ALL/privacypolicy.html oldalon érhető el.",
+        "text--7": "A Hotjar adatvédelmi irányelvei pedig https://www.hotjar.com/legal/policies/privacy oldalon érhető el."
+      },
+      "sub5": {
+        "title": "Az alkalmazott cookiekról az érintett szolgáltatók tudnak bővebb felvilágosítást adni:",
+        "text--1": "Bővebben a Hotjar cookiekról",
+        "text--2": "https://www.hotjar.com/legal/policies/cookie-information oldalon olvashat.",
+        "text--3": "A Google Anlytics cookiek azonosítására és jellemzőire itt találja a válaszokat: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+      },
+      "sub6": {
+        "title": "Hirdetésekhez használt cookiek",
+        "text--1": "A Szolgáltató igénybe veheti a 21. századi online marketing megoldásokat, konkrétan a Google AdWords és a Facebook hirdetéseket. Ezek a hirdetési megoldások cookiekat használnak a működésük során. Ezek a cookiek segítik a rendszer működését abban, hogy az Érintettek számára ne irreleváns hirdetések jelenjenek meg, hanem olyanok, amik beletartoznak az aktuális érdeklődési körükbe. A Portálon a Szolgáltató Google Adwords, valamint Facebook által biztosított remarketing kódokat használja. A remarketing kód is cookie-kat használ.",
+        "text--2": "A települt cookie személyes adatokat nem továbbít a Szolgáltató számára, csupán segít abban, hogy a Szolgáltató termékeivel és szolgáltatásaival kapcsolatos hirdetések jelenjenek meg a Portál látogatója által a későbbiekben meglátogatott más, a Google Display, hálózatába tartozó weboldalakon, illetve a Facebook-on."
+      },
+      "sub7": {
+        "title": "Hirdetésekkel kapcsolatos automata preferenciák kézi felülbírálása, beavatkozási és beállítási lehetőség",
+        "text--1": "Felhasználó a cookie-kat bármikor letilthatja és a hirdetéseket személyre szabhatja a Google illetve a Facebook hirdetési beállítások felületén.",
+        "text--2": "Google felhasználói fiók adatvédelmi beállításait itt végezheti el az Érintett:",
+        "text--3": "https://myaccount.google.com/privacy",
+        "text--4": "A Facebook felhasználói fiók adatvédelmi beállításai pedig a beállítások menüpont alatt az adatvédelemmel és a hirdetésekkel kapcsolatos beállítási fül alatt érhető el.",
+        "text--5": "https://www.facebook.com/ads/preferences"
+      },
+      "sub8": {
+        "title": "A Cookie használat leállítása, tiltása",
+        "text--1": "A böngésző beállításainak módosítása:",
+        "text--2": "A legtöbb böngésző menüsorában található „Segítség” funkció tájékoztatást nyújt arra vonatkozóan, hogy a böngészőben",
+        "text--3": "• hogyan lehet letiltani a cookie-kat,",
+        "text--4": "• hogyan fogadjon el új cookie-kat, vagy",
+        "text--5": "• hogyan adjon utasítást böngészőjének arra, hogy új cookie-t állítson be, vagy",
+        "text--6": "• hogyan kapcsoljon ki egyéb cookie-kat."
+      },
+      "sub9": {
+        "title": "Blokkoló böngésző kiegészítések:",
+        "text--1": "Amennyiben az Érintett nem szeretné, hogy a Google Analytics a fenti adatokat az ismertetett módon és céllal mérje, telepítse böngészőjébe az ezt blokkoló kiegészítőt.",
+        "text--2": "Külső megoldás igénybevétele a cookie menedzsmentre:",
+        "text--3": "Az Érintett külső weboldalak segítségével menedzselheti, hogy a számítógépén milyen Szolgáltatók számára engedélyez hirdetési cookie tevékenységet. Az egyik megoldás, a magyar nyelven is elérhető AdChoices."
+      }
+    },
+    "4": {
+      "title": "4. Közösségi média kiegészítések",
+      "text--1": "A Portálon a bővítmények alaphelyzetben le vannak tiltva. Ezek a bővítmények is cookiek A bővítmények csak akkor kerülnek engedélyezésre, ha az Érintett az erre szolgáló gombra kattint (pl. lájkol egy cikket, pinel egy képet, vagy elkezdi az oldalon található „tetszik” gombbal követni a Szolgáltató Facebook oldalát). A bővítmény engedélyezésével, vagyis a „tetszik gomb” megnyomásával az Érintett kapcsolatot hoz létre a közösségi oldallal azaz egyértelműen kifejezésre juttatja, hogy hozzájárul az adatainak a Facebook/Twitter/Linked-in/Pinterest/Instagram részére történő továbbításához.",
+      "text--2": "Amennyiben az Érintett be van jelentkezve a Facebookra/Twitterre/Linked-in/Pinterest/Instagram-ra, előfordulhat, hogy az adott közösségi hálózat a látogatását az Érintett közösségi fiókjához társítja.",
+      "text--3": "Amennyiben az Érintett a fent említett közösségi média gombok egyikére kattint, a böngészője a vonatkozó információkat közvetlenül az adott közösségi hálózatnak továbbítja, és azokat ott tárolja.",
+      "text--4": "Az adatgyűjtés körére és céljára, adatainak a  Facebook/Twitter/Linked-in/Pinterest/Instagram általi további feldolgozására és felhasználására, személyes adatainak védelmére irányuló jogaira és beállításaira vonatkozó információk az adott közösségi média adatvédelmi nyilatkozatában találhatóak.",
+      "text--5": "A weboldal szolgáltatásait igénybe vevő tudomásul veszi, hogy az adatainak Google általi feldolgozásához a weboldal használatával hozzájárulását adta."
+    },
+    "5": {
+      "title": "5. Technikai adatok – naplóállományok (logfile-ok)",
+      "text--1": "A szolgáltatások igénybevétele érdekében a rendszer automatikusan naplózza az alábbi adatokat: a felhasználó számítógépének dinamikus IP-címe, a felhasználó számítógépének beállításaitól függően a felhasználó által használt böngésző és az operációs rendszer típusa, a felhasználó weboldallal kapcsolatos aktivitása. Ezen adatok felhasználása egyrészről technikai célok – úgymint a szerverek biztonságos működésének elemzése, utólagos ellenőrzése- szolgál. Ez egy automatikus IT biztonsági folyamat, melyet az érintett nyilatkozata nélkül rögzíti a rendszer szervernaplókba. A fenti adatok a felhasználó azonosítására nem alkalmasak és azokat az Adatkezelő egyéb személyes adatokkal nem kapcsolja össze. A naplózási adatokat a rendszer a látogatástól számított 6 hónapig tárolja."
+    },
+    "6": {
+      "title": "6. Az adatkezelés jogalapja és célja",
+      "text--1": "Ajánlatkérők és érdeklődők esetében az adatkezelés a szerződés megkötését megelőző lépésekhez szükséges, az adatkezelés célja az Érintettek személyre szabott kiszolgálása, illetve az Érintettek kérésére árajánlat küldése, amely a későbbi esetleges szerződés vagy megrendelés alapjául szolgálhat."
+    },
+    "7": {
+      "title": "7. Az adatkezelés időtartama",
+      "text--1": "Ajánlatkérők és érdeklődők adatainak kezelése: amennyiben a szerződés létrejött, a szerződés  hatálya alatt, illetve a számviteli törvény szerint a teljesítés évét követő 8 évig történik. Amennyiben a szerződés nem jött létre, vagyis a cél nem valósult meg, az adatokat az ajánlat lejártát követő év március 1.-ig kezeli a Szolgáltató."
+    },
+    "8": {
+      "title": "8. Az adatokat megismerők köre, adattovábbítás, adatfeldolgozás",
+      "text--1": "Az érintettektől gyűjtött személyes adatokat a Szolgáltató belső munkatársai jogosultak megismerni, azokat nem publikálják. Harmadik fél számára adatkezelés céljából kizárólag az érintettek kérésére továbbítja az érintett által megadott címzett részére. A Szolgáltató tevékenysége során felmerülő feladatok elvégzése céljából (könyvelés, elektronikus számla kiállítása, hírlevél kiküldése) adatfeldolgozót vehet igénybe.",
+      "sub1": {
+        "title": "Adatfeldolgozók kategóriái és az adattovábbítás címzettjei",
+        "sub1": {
+          "title": "Név: Rackhost Zrt.",
+          "text--1": "Székhely: 6722 Szeged, Tisza Lajos körút 41.",
+          "text--2": "Elérhetőség: info@rackhost.hu",
+          "text--3": "Kategória: webtárhely üzemeltető"
+        },
+        "sub2": {
+          "title": "Név: DHL",
+          "text--1": "Székhely: 1185 Budapest, BUD Nemzetközi Repülőtér repülőtér 302. ép.",
+          "text--2": "Kategória: futárszolgálat"
+        },
+        "sub3": {
+          "title": "Név: TNT",
+          "text--1": "Székhely: 1185 Budapest, BUD Nemzetközi repülőtér II. Logisztikai Központ - Irodaépület. 283. ép.",
+          "text--2": "Kategória: futárszolgálat"
+        },
+        "sub4": {
+          "title": "Név: Fedex",
+          "text--1": "Székhely: 1185 Budapest, BUD Nemzetközi repülőtér II. Logisztikai Központ - Irodaépület. 283. ép.",
+          "text--2": "Kategória: futárszolgálat"
+        },
+        "sub5": {
+          "title": "Név: GLS",
+          "text--1": "Székhely: 2351 Alsónémedi GLS Európa u. 2.",
+          "text--2": "Kategória: futárszolgálat"
+        }
+      }
+    },
+    "9": {
+      "title": "9. Az érintettek jogai, jogorvoslati lehetőségek",
+      "sub1": {
+        "title": "9.1 Az Érintett kérelmezheti az Adatkezelőnél",
+        "text--1": "a) tájékoztatását személyes adatai kezeléséről,",
+        "text--2": "b) személyes adatainak helyesbítését, valamint",
+        "text--3": "c) személyes adatainak - a kötelező adatkezelés kivételével - törlését vagy zárolását,",
+        "text--4": "d) személyes adatainak továbbítását másik adatkezelő számára."
+      },
+      "sub2": {
+        "title": "9.2 Az Érintett kérelmére",
+        "text--1": "az Adatkezelő, legkésőbb az erre irányuló kérelem benyújtásától számított 30 napon belül írásbeli tájékoztatást az Érintett általa kezelt, illetve az általa vagy rendelkezése szerint megbízott adatfeldolgozó által feldolgozott adatairól, azok forrásáról, az adatkezelés céljáról, jogalapjáról, időtartamáról, az adatfeldolgozó nevéről, címéről és az adatkezeléssel összefüggő tevékenységéről, továbbá - az érintett személyes adatainak továbbítása esetén - az adattovábbítás jogalapjáról és címzettjéről.",
+        "text--2": "A tájékoztatás ingyenes, ha a tájékoztatást kérő a folyó évben azonos területre vonatkozó tájékoztatási kérelmet az Adatkezelőhöz még nem nyújtott be. Egyéb esetben az Adatkezelő költségtérítést állapít meg, azzal, hogy a már megfizetett költségtérítést vissza kell téríteni, ha az adatokat jogellenesen kezelték, vagy a tájékoztatás kérése helyesbítéshez vezetett.",
+        "text--3": "Az Adatkezelő az adattovábbítás jogszerűségének ellenőrzése, valamint az érintett tájékoztatása céljából adattovábbítási nyilvántartást vezet, amely tartalmazza az általa kezelt személyes adatok továbbításának időpontját, az adattovábbítás jogalapját és címzettjét, a továbbított személyes adatok körének meghatározását, valamint az adatkezelést előíró jogszabályban meghatározott egyéb adatokat.",
+        "text--4": "A Szolgáltató az adatvédelmi incidenssel kapcsolatos      intézkedések ellenőrzése, valamint az Érintett tájékoztatása céljából adatvédelmi incidens nyilvántartást vezet, amely tartalmazza az      Érintett személyes adatok körét, az adatvédelmi incidenssel Érintettek körét és számát, az adatvédelmi incidens időpontját, körülményeit, hatásait és az elhárítására megtett intézkedéseket, valamint az      adatkezelést előíró jogszabályban meghatározott egyéb adatokat."
+      },
+      "sub3": {
+        "title": "9.3 Az Érintett bármikor jogosult",
+        "text--1": "a helytelenül rögzített adatainak helyesbítését vagy azok törlését kérni. Az ilyen irányú kérését írásban kell benyújtania postai vagy elektronikus levél formájában. A Szolgáltató a kérelem beérkezésétől számított 3 munkanapon belül törli az adatokat, ez esetben azok nem lesznek újra helyreállíthatók. A törlés nem vonatkozik a jogszabály (pl. számviteli szabályozás) alapján szükséges adatkezelésekre, azokat Szolgáltató a szükséges időtartamig megőrzi."
+      },
+      "sub4": {
+        "title": "9.4 Az Érintett kérheti továbbá",
+        "text--1": "adatainak zárolását és az adatainak továbbítását másik adatkezelő számára. A Szolgáltató zárolja a személyes adatot, ha az érintett ezt kéri, vagy ha a rendelkezésére álló információk alapján feltételezhető, hogy a törlés sértené az Érintett jogos érdekeit. Az így zárolt személyes adat kizárólag addig kezelhető, ameddig fennáll az adatkezelési cél, amely a személyes adat törlését kizárta.",
+        "text--2": "A helyesbítésről, a zárolásról és a törlésről az Érintettet, továbbá mindazokat értesíteni kell, akiknek korábban az adatot adatkezelés céljára továbbították. Az értesítés mellőzhető, ha ez az adatkezelés céljára való tekintettel az Érintett jogos érdekét nem sérti.",
+        "text--3": "Ha a Szolgáltató az Érintett helyesbítés, zárolás vagy törlés iránti kérelmét nem teljesíti, a kérelem kézhezvételét követő 30 napon belül írásban közli a helyesbítés, zárolás vagy törlés iránti kérelem elutasításának ténybeli és jogi indokait.",
+        "text--4": "Az Érintett továbbá az 9.5. pontban megjelölt kapcsolattartási címek egyikén juttathatja el az Adatkezelő számára az alábbiakat:",
+        "text--5": "• kérheti adatainak átadását másik adatkezelőnek, mennyiben az adatkezelés szerződésen vagy hozzájáruláson alapul és a Szolgáltató automatizált eljárás keretében kezeli.",
+        "text--6": "• rendelkezhet a korábban az adatkezeléshez adott hozzájárulásának visszavonásáról",
+        "text--7": "Az Érintett tiltakozhat személyes adatának kezelése ellen. Szolgáltató a tiltakozást a kérelem benyújtásától számított legrövidebb időn belül, de legfeljebb 15 nap alatt megvizsgálja, annak megalapozottsága kérdésében döntést hoz, és döntéséről a kérelmezőt írásban tájékoztatja. A helyesbítés, törlés vagy zárolás iránti kérelem elutasítása esetén az Adatkezelő tájékoztatja az Érintettet a bírósági jogorvoslat, továbbá a Hatósághoz fordulás lehetőségéről.",
+        "text--8": "Adatbiztonsági intézkedésekről szóló tájékoztatás:",
+        "text--9": "Adatkezelő gondoskodik az alapértelmezett és beépített adatvédelemről. Ennek érdekében az Adatkezelő megfelelő technikai és szervezési intézkedéseket alkalmaz annak érdekében, hogy:",
+        "text--10": "• az adatokhoz való hozzáférést pontosan szabályozza;",
+        "text--11": "• csak olyan személyeknek engedélyezze a hozzáférést, akiknek az adat az azzal való feladat elvégzése érdekében szükséges, és ekkor is csak azon adatokhoz lehessen hozzáférni, mely minimálisan szükséges a feladat ellátásához;",
+        "text--12": "• az általa megbízott adatfeldolgozókat körültekintően válassza ki, és megfelelő adatfeldolgozói szerződéssel gondoskodjon az adatok biztonságáról;",
+        "text--13": "• gondoskodik a kezelt adatok változatlanságáról (adatintegritás), hitelességéről és védelméről.",
+        "text--14": "Az Adatkezelő ésszerű mértékű fizikai, műszaki és szervezeti biztonsági intézkedéseket alkalmaz az Érintett adatok védelmére, különösen azoknak a véletlen, illetéktelen, törvénytelen megsemmisítése, elvesztése, megváltoztatása, továbbadása, felhasználása, elérése vagy feldolgozása ellen. Az Adatkezelő a személyes adatokhoz való ismert, és az érintettre nézve magas kockázattal járó illetéktelen hozzáférés vagy azok felhasználása esetén haladéktalanul értesíti az Érintettet.",
+        "text--15": "Az Adatkezelő, amennyiben Érintett adat továbbítása szükséges, gondoskodik a továbbított adatok megfelelő védelméről, például az adatállomány titkosításával. Az Adatkezelő a harmadik személyek által megvalósított Érintett adatkezelésért teljes körű felelősséggel tartozik.",
+        "text--16": "Az Adatkezelő megfelelő és rendszeres biztonsági mentésekkel is gondoskodik arról, hogy az Érintett adatai a megsemmisüléssel vagy elvesztéssel szemben védve legyenek."
+      },
+      "sub5": {
+        "title": "9.5 Az érintett a jogait az alábbi elérhetőségeken gyakorolhatja",
+        "text--1": "Levelezési cím: Vision SMT Kft., 1106 Budapest, Jászberényi út 29/B",
+        "text--2": "Email cím: info@visionsmt.hu / info@vision-smt.com",
+        "text--3": "Az Érintett bármely, az adatkezeléssel kapcsolatos kérdéssel, illetve észrevétellel a Szolgáltató munkatársához fordulhat a 9.5 pontban elérhetőségeken keresztül."
+      },
+      "sub6": {
+        "title": "9.6 Az Érintett a GDPR, az Info.tv., valamint a Polgári Törvénykönyv (2013. évi V. törvény) alapján",
+        "text--1": "Nemzeti Adatvédelmi és Információszabadság Hatósághoz (1125 Budapest, Szilágyi Erzsébet fasor 22/c.; www.naih.hu) fordulhat vagy Bíróság előtt érvényesítheti jogait."
+      },
+      "sub7": {
+        "title": "9.7 Amennyiben az Érintett szolgáltatás igénybevételéhez",
+        "text--1": "a regisztráció során, a hírlevél feliratkozáskor harmadik fél adatait adta meg vagy a Weboldal használata során bármilyen módon kárt okozott, a Szolgáltató jogosult az Érintettel szembeni kártérítés érvényesítésére. A Szolgáltató ilyen esetben minden tőle telhető segítséget megad az eljáró hatóságoknak a jogsértő személyszemélyazonosságának megállapítása céljából."
+      }
+    }
   }
 }

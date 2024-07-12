@@ -298,5 +298,204 @@
     },
     "TendersHero__description": "Explore the grants won by Car Trade Kft., reflecting the and commitment of our business in sustainable operational practices and energy efficiency.",
     "TendersHero__counter-label": "Tender"
+  },
+  "privacy": {
+    "backToLastPage1": "Back ",
+    "backToLastPage2": "to last page",
+    "tagline": "Guaranteed GDPR Compliance",
+    "heading": "Privacy Policy",
+    "description": "We are committed to protecting your data.",
+    "0": {
+      "title": "Privacy Notice for Website Visitors",
+      "text--1": "Car Trade Kft. carries out manufacturing activities ( the production of the air deflectors of those vehicles ), on the basis of which it manages data for the performance of the service. ",
+      "text--2": "During the operation of the www.spoilers-truck.com website (hereinafter: Website), Car Trade Kft. (hereinafter referred to as the Service Provider ) manages the personal data of those requesting or interested in offers on the website (hereinafter referred to as the Data Subject)."
+    },
+    "1": {
+      "title": "1. Contact Details of the Data Controller",
+      "text--1": "Name: Car Trade Kft. ",
+      "text--2": "Headquarters: 8000 Székesfehérvár, Radványi u. 46. Mailing address: 8008 Székesfehérvár, Pf. 8",
+      "text--3": "Name and telephone number of representative: Massimiliano Benatti , +36 (20) 315-6600 ",
+      "text--4": "Email address: info@spoilers-truck.com"
+    },
+    "2": {
+      "title": "2. Scope of Personal Data Processed",
+      "text--1": "Different personal data are requested from users for accessing various services, considering the principle of data minimization. This Privacy Notice exclusively covers the processing of data of natural persons visiting the website, given that personal data can only be interpreted concerning natural persons.",
+      "text--2": "Anonymous information collected excluding personal identifiability by the data controller and demographic data collected not linked to identifiable personal data of individuals, thus not establishing a connection with a natural person, are not considered personal data.",
+      "text--3": "The scope of processed data is listed in detail as follows:",
+      "sub1": {
+        "title": "2.1 Inquirers",
+        "text--1": "- Name",
+        "text--2": "- Email Address",
+        "text--3": "- Telephone Number"
+      },
+      "sub2": {
+        "title": "2.2 Enquirers",
+        "text--1": "- Name",
+        "text--2": "- Email Address",
+        "text--3": "- Telephone Number"
+      },
+      "sub3": {
+        "title": "2.3 Children",
+        "text--1": "Our products and services are not intended for individuals under 16 years of age, and we request that personal data not be provided to the Data Controller by persons under 16. If we become aware that we have collected personal data from a child under 16, we will take steps to delete the data as soon as possible."
+      }
+    },
+    "3": {
+      "title": "3. Cookie (Anonymous Customer Identifier) Policy",
+      "text--1": "The Data Controller places an anonymous customer identifier (cookie) on the Data Subject's computer, which cannot identify the Data Subject on its own. They are only suitable for recognizing the Data Subject's computer but do not store IP addresses and do not transmit IP addresses as personal data to the Service Provider. The applied cookies are simple, short, small text files. The provision of personal data or information is not necessary, as the use of the solution does not involve the transfer of personal data by the User to the Service Provider, and data exchange occurs exclusively between machines.",
+      "sub1": {
+        "title": "Cookies Necessary for the Operation of the Website",
+        "text--1": "Placing some cookies on the Data Subject's computer is essential for the operation of the website, thereby speeding up the loading of the website, allowing the Data Subject's own browser to store certain information about the website, and helping the Data Subject to ensure the website's modules function as intended."
+      },
+      "sub2": {
+        "title": "LANG (Session)",
+        "text--1": "Function: Stores the visitor's preferred language code to ensure that error pages (e.g., 404) load in the preferred language and do not revert to the website's default language if different."
+      },
+      "sub3": {
+        "title": "COOKIE-CONSENT (1 year)",
+        "text--1": "Function: Prevents reloading of the cookie bar after acceptance. If the Data Subject chooses the 'Accept/OK/Agree' option, their choice is saved, so we will not ask for further consent for 1 year."
+      },
+      "sub4": {
+        "title": "Analytical Cookies",
+        "text--1": "To extract our website's visitation and other web analytics data, the service provider utilizes the services of independent analytical servers, namely Hotjar and Google Analytics software. These service providers can provide detailed information to the Data Subject about the handling of measurement data.",
+        "text--2": "In the case of Google Analytics, the Service Provider has made settings in the website code according to which Google Analytics anonymizes the IP address of the Data Subject, making it no longer identifiable, and thus not transferred to the Service Provider.",
+        "text--3": "You can read more about this technology here: https://support.google.com/analytics/answer/2763052?hl=en",
+        "text--4": "The goal is to analyze our website's visitation and functional use with the anonymized information provided by the aforementioned software to improve user experience (e.g., providing optimized navigation, arranging information on a subpage in order of importance).",
+        "text--5": "These measurements do not store any data about the users that could identify them, neither IP addresses nor personal data.",
+        "text--6": "Google Inc.'s privacy policy can be accessed at http://www.google.com/intl/en/ALL/privacypolicy.html.",
+        "text--7": "Hotjar's privacy policies can be accessed at https://www.hotjar.com/legal/policies/privacy."
+      },
+      "sub5": {
+        "title": "More information about the cookies used can be provided by the concerned service providers:",
+        "text--1": "More about Hotjar cookies",
+        "text--2": "You can read at https://www.hotjar.com/legal/policies/cookie-information.",
+        "text--3": "Answers to identifying and characterizing Google Analytics cookies can be found here: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+      },
+      "sub6": {
+        "title": "Cookies Used for Advertising",
+        "text--1": "The Service Provider may utilize 21st-century online marketing solutions, specifically Google AdWords and Facebook ads. These advertising solutions use cookies during their operation. These cookies assist the system in ensuring that the Data Subjects see relevant advertisements instead of irrelevant ones, fitting their current interest. The Service Provider uses remarketing codes provided by Google Adwords and Facebook on the Portal. Remarketing codes also use cookies.",
+        "text--2": "The cookies installed do not transmit personal data to the Service Provider but only assist in displaying advertisements related to the Service Provider's products and services on other web pages within the Google Display network or on Facebook visited by the Portal visitor later."
+      },
+      "sub7": {
+        "title": "Manual Overriding of Automatic Advertising Preferences, Intervention, and Setting Options",
+        "text--1": "Users can disable cookies at any time and personalize advertisements through the Google or Facebook advertising settings interface.",
+        "text--2": "Data Subjects can manage their Google account privacy settings here:",
+        "text--3": "https://myaccount.google.com/privacy",
+        "text--4": "Facebook user account privacy settings can be accessed under the settings menu, within the privacy and advertisements settings tab.",
+        "text--5": "https://www.facebook.com/ads/preferences"
+      },
+      "sub8": {
+        "title": "Disabling and Blocking Cookie Use",
+        "text--1": "Modifying browser settings:",
+        "text--2": "The “Help” function in most browser menus provides information on how in the browser",
+        "text--3": "• you can disable cookies,",
+        "text--4": "• you can accept new cookies, or",
+        "text--5": "• you can instruct your browser to set a new cookie, or",
+        "text--6": "• you can turn off other cookies."
+      },
+      "sub9": {
+        "title": "Blocking Browser Extensions:",
+        "text--1": "If the Data Subject does not want Google Analytics to measure the data in the described manner and for the described purpose, they can install the blocking add-on in their browser.",
+        "text--2": "Using external solutions for cookie management:",
+        "text--3": "The Data Subject can manage the advertising cookie activity allowed on their computer for Service Providers using external websites. One solution, available in Hungarian, is AdChoices."
+      }
+    },
+    "4": {
+      "title": "4. Social Media Extensions",
+      "text--1": "Extensions on the Portal are disabled by default. These extensions also use cookies. Extensions are only enabled if the Data Subject clicks on the corresponding button (e.g., likes an article, pins an image, or starts following the Service Provider's Facebook page using the “like” button found on the site). By enabling the extension, i.e., pressing the “like button,” the Data Subject establishes a connection with the social network, thereby expressly consenting to the transmission of their data to Facebook/Twitter/Linked-in/Pinterest/Instagram.",
+      "text--2": "If the Data Subject is logged into Facebook/Twitter/Linked-in/Pinterest/Instagram, the respective social network may associate the visit with the Data Subject's social account.",
+      "text--3": "If the Data Subject clicks on one of the aforementioned social media buttons, their browser directly transmits the relevant information to the respective social network, where it is stored.",
+      "text--4": "Information on the scope and purpose of data collection, further processing and use of data by Facebook/Twitter/Linked-in/Pinterest/Instagram, rights, and setting options for protecting the Data Subject's personal data can be found in the respective social media's privacy statement.",
+      "text--5": "By using the website's services, users acknowledge that they have consented to the processing of their data by Google through the use of the website."
+    },
+    "5": {
+      "title": "5. Technical Data - Log Files (logfiles)",
+      "text--1": "For the use of services, the system automatically logs the following data: the dynamic IP address of the user's computer, the type of browser and operating system used by the user depending on the user's computer settings, the user's activity related to the website. The use of this data serves technical purposes, such as analyzing the secure operation of servers, subsequent verification - it is an automatic IT security process recorded by the system server logs without the statement of the concerned. These data are not suitable for identifying the user and are not linked to other personal data by the Data Controller. The logging data are stored by the system for 6 months from the visit."
+    },
+    "6": {
+      "title": "6. Legal Basis and Purpose of Data Processing",
+      "text--1": "In the case of requesters and inquirers, data processing is necessary for pre-contractual steps, and the purpose of data processing is to provide personalized service to the Data Subjects and to send quotations upon their request, which may serve as the basis for a future contract or order."
+    },
+    "7": {
+      "title": "7. Duration of Data Processing",
+      "text--1": "Data processing of requesters and inquirers: if a contract is concluded, during the term of the contract, and according to the accounting law, for 8 years following the year of performance. If the contract is not concluded, i.e., the purpose is not realized, the Service Provider will handle the data until March 1 of the year following the expiration of the offer."
+    },
+    "8": {
+      "title": "8. Circle of Persons Familiar with the Data, Data Transfer, Data Processing",
+      "text--1": "Personal data collected from the data subjects can be accessed by the internal staff of the Service Provider; they are not published. Data is transferred to a third party for data processing purposes only upon the request of the data subjects to the recipient specified by the data subject. The Service Provider may employ data processors for performing tasks arising in its operations (accounting, issuing electronic invoices, sending newsletters).",
+      "sub1": {
+        "title": "Categories of Data Processors and Recipients of Data Transfer",
+        "sub1": {
+          "title": "Name: Rackhost Zrt.",
+          "text--1": "Registered Office: 6722 Szeged, Tisza Lajos körút 41.",
+          "text--2": "Contact: info@rackhost.hu",
+          "text--3": "Category: web hosting provider"
+        },
+        "sub2": {
+          "title": "Name: DHL",
+          "text--1": "Registered Office: 1185 Budapest, BUD International Airport terminal building 302.",
+          "text--2": "Category: courier service"
+        },
+        "sub3": {
+          "title": "Name: TNT",
+          "text--1": "Registered Office: 1185 Budapest, BUD International Airport II. Logistics Center - Office Building. building 283.",
+          "text--2": "Category: courier service"
+        },
+        "sub4": {
+          "title": "Name: Fedex",
+          "text--1": "Registered Office: 1185 Budapest, BUD International Airport II. Logistics Center - Office Building. building 283.",
+          "text--2": "Category: courier service"
+        },
+        "sub5": {
+          "title": "Name: GLS ",
+          "text--1": "Registered Office: 2351 Alsónémedi GLS Európa u. 2.",
+          "text--2": "Category: courier service"
+        }
+      }
+    },
+    "9": {
+      "title": "9. Rights of the Data Subjects, Legal Remedies",
+      "sub1": {
+        "title": "9.1 The Data Subject may request from the Data Controller",
+        "text--1": "a) information about the processing of their personal data,",
+        "text--2": "b) rectification of their personal data, and",
+        "text--3": "c) deletion or blocking of their personal data - except for mandatory data processing,",
+        "text--4": "d) transfer of their personal data to another data controller."
+      },
+      "sub2": {
+        "title": "9.2 Upon the request of the Data Subject",
+        "text--1": "the Data Controller shall provide written information within 30 days from the submission of the request about the data processed by the Data Controller or by its appointed processor, their sources, the purpose, legal basis, duration of data processing, the processor's name, address and data processing related activities, and - in case of transferring the Data Subject's personal data - the legal basis and the recipient of the data transfer.",
+        "text--2": "The information is free of charge if the person requesting the information has not submitted a request for information on the same area to the Data Controller in the current year. Otherwise, the Data Controller may establish a fee, provided that the fee already paid must be reimbursed if the data were unlawfully processed or if the request for information led to rectification.",
+        "text--3": "The Data Controller keeps a data transfer register to check the legality of the data transfer and to inform the Data Subject, containing the date of transfer of the personal data handled by it, the legal basis and recipient of the data transfer, the definition of the scope of personal data transferred, and other data specified in the legislation prescribing data processing.",
+        "text--4": "The Service Provider keeps a record of data protection incidents for checking the measures related to data protection incidents and for informing the Data Subject, containing the scope of the Data Subject's personal data, the circle and number of Data Subjects involved in the data protection incident, the time, circumstances, effects of the data protection incident, and the measures taken for its elimination, and other data specified in the legislation prescribing data processing."
+      },
+      "sub3": {
+        "title": "9.3 The Data Subject is entitled at any time",
+        "text--1": "to request correction or deletion of incorrectly recorded data. Such requests must be submitted in writing, either by postal mail or email. The Service Provider deletes the data within 3 working days from the receipt of the request, in which case the data will not be recoverable. The deletion does not cover data processing required by law (e.g., accounting regulations), which the Service Provider retains for the necessary period."
+      },
+      "sub4": {
+        "title": "9.4 Furthermore, the Data Subject may request",
+        "text--1": "the blocking of their data and the transfer of their data to another data controller. The Service Provider blocks personal data if requested by the Data Subject, or if, based on the available information, it can be assumed that deletion would violate the Data Subject's legitimate interests. Personal data thus blocked can only be processed until the data processing goal that precluded the deletion of personal data exists.",
+        "text--2": "The Data Subject, and all those to whom the data was previously transferred for data processing purposes, must be notified of the correction, blocking, and deletion. The notification can be omitted if it does not violate the legitimate interest of the Data Subject for the purpose of data processing.",
+        "text--3": "If the Service Provider does not fulfill the Data Subject's request for correction, blocking, or deletion, it shall communicate the factual and legal reasons for the refusal of the request for correction, blocking, or deletion within 30 days from the receipt of the request.",
+        "text--4": "Furthermore, the Data Subject may submit the following to the Data Controller at the contact details specified in point 9.5:",
+        "text--5": "• they may request the transfer of their data to another data controller, if the data processing is based on a contract or consent and the data processing is carried out by automated means by the Service Provider.",
+        "text--6": "• they may dispose of the withdrawal of their consent previously given for data processing",
+        "text--7": "The Data Subject may object to the processing of their personal data. The Service Provider examines the objection as soon as possible, but not later than 15 days from the submission of the request, makes a decision on its merits, and informs the applicant in writing. In case of rejection of the request for correction, deletion, or blocking, the Data Controller informs the Data Subject about the possibility of seeking judicial remedy and turning to the Authority."
+      },
+      "sub5": {
+        "title": "9.5 The Data Subject can exercise their rights at the following contact details",
+        "text--1": "Mailing Address: Vision SMT Kft., 1106 Budapest, Jászberényi út 29/B",
+        "text--2": "Email Address: info@visionsmt.hu / info@vision-smt.com",
+        "text--3": "The Data Subject may address any questions or observations related to data processing to the Service Provider's staff through the contact details specified in point 9.5."
+      },
+      "sub6": {
+        "title": "9.6 Based on the GDPR, the Info.tv., and the Civil Code (Act V of 2013)",
+        "text--1": "The Data Subject may turn to the National Authority for Data Protection and Freedom of Information (1125 Budapest, Szilágyi Erzsébet fasor 22/c; www.naih.hu) or enforce their rights in court."
+      },
+      "sub7": {
+        "title": "9.7 If the Data Subject, for the use of the service,",
+        "text--1": "provided third-party data during registration, newsletter subscription, or caused any damage in any way during the use of the Website, the Service Provider is entitled to claim compensation against the Data Subject. In such cases, the Service Provider provides all possible assistance to the authorities to establish the identity of the infringing person."
+      }
+    }
   }
 }

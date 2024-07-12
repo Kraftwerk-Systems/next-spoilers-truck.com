@@ -1,0 +1,222 @@
+.GDPRPage {
+  position: relative;
+  background-image: var(--gradient-section-bg-1-225deg);
+
+  margin-top: 0;
+  padding-top: var(--spacing-5xl);
+  padding-bottom: var(--spacing-5xl);
+  z-index: 0;
+
+  min-height: 100vh;
+
+  &__button-strip {
+    position: fixed;
+    width: 100%;
+    padding: 0 var(--vp_X_Pad_MD);
+    top: calc(4rem + 5vh);
+
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+  }
+
+  &__ornament-bars {
+    background-color: rgb(193, 216, 228) !important;
+
+    &::after {
+      background-color: rgb(230, 242, 248) !important;
+    }
+  }
+
+  &__button {
+    height: 3.5rem;
+    text-transform: uppercase;
+    font-weight: var(--font-light);
+    width: 13rem;
+    margin-top: var(--spacing-lg);
+
+    &--back {
+    }
+
+    &--cta {
+      @media (hover: hover) {
+        &:hover {
+          & + span {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    align-items: center;
+
+    margin-bottom: calc(var(--spacing-lg) * -1.5);
+  }
+
+  &__tagline {
+    @include typography(
+      var(--font-md),
+      var(--font-medium),
+      1px,
+      1.5,
+      var(--grayscale-400)
+    );
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__heading {
+    @include typography(
+      var(--font-5xl),
+      var(--font-bold),
+      0.5px,
+      1.5,
+      var(--secondary-900)
+    );
+  }
+
+  &__description {
+    @include typography(
+      calc(var(--font-lg) * 1.25),
+      var(--font-light),
+      0.5px,
+      1.5,
+      var(--grayscale-600)
+    );
+    text-align: center;
+
+    max-width: 50rem;
+
+    margin-bottom: var(--spacing-xl);
+
+    & span {
+      color: var(--secondary-900);
+    }
+  }
+
+  &__ornament-bars {
+    top: 10%;
+
+    &::after {
+      background-color: var(--primary-200);
+    }
+  }
+
+  &__technical-wrapper {
+    position: relative;
+  }
+
+  &__content {
+    max-width: 45rem;
+    text-align: justify;
+    line-height: 1.75;
+    margin: 0 auto;
+    margin-top: var(--spacing-2xl);
+    color: var(--grayscale-600);
+    font-size: calc(var(--font-sm) * 1.15);
+
+    & h3 {
+      @include typography(
+        var(--font-lg),
+        var(--font-semibold),
+        0.5px,
+        1.5,
+        var(--secondary-900)
+      );
+    }
+
+    & span.u-bold {
+      color: var(--secondary-900);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .GDPRPage {
+    // padding-top: var(--spacing-5xl);
+    &__description {
+      max-width: 35rem;
+    }
+    &__ornament-bars {
+      top: 10%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .GDPRPage {
+    &__description {
+      max-width: 30rem;
+    }
+    &__ornament-bars {
+      //    display: none;
+    }
+    & .Tooltip {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .GDPRPage {
+    padding-top: var(--spacing-5xl);
+    &__button-strip {
+      top: calc(4rem + 3vh);
+    }
+    &__heading {
+      text-align: center;
+      font-size: var(--font-4xl);
+    }
+    &__content {
+      text-align: left;
+    }
+    &__tagline {
+      text-align: center;
+    }
+    &__description {
+      //    text-align: left;
+      width: 100%;
+      max-width: 30rem;
+      font-size: var(--font-lg);
+      margin-bottom: var(--spacing-lg);
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .GDPRPage {
+    padding-top: var(--spacing-4xl);
+    &__button {
+      width: 15rem;
+      font-size: calc(var(--font-lg) * 0.9) !important;
+    }
+    &__button-strip {
+      top: auto;
+      bottom: calc(5vh);
+      justify-content: center;
+    }
+    &__cta-with-label {
+      display: none;
+    }
+    &__description {
+      max-width: 19rem;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .GDPRPage {
+    &__heading {
+      font-size: var(--font-3xl);
+    }
+    &__description {
+      font-size: var(--font-lg);
+      margin-bottom: var(--spacing-lg);
+    }
+  }
+}
