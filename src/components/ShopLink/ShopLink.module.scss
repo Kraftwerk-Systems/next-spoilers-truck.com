@@ -1,0 +1,57 @@
+/* ShopLink.scss */
+.ShopLink {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: var(--spacing-sm);
+  padding-right: var(--spacing-md);
+  gap: var(--spacing-sm);
+  background: var(--grayscale-0);
+  border: solid 5px var(--grayscale-100);
+  position: relative;
+  border-right: none;
+  width: 100%;
+}
+
+.ShopLink::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  width: calc(100% + 10px);
+  height: 100%;
+  background-color: var(--primary-600);
+  z-index: -1;
+}
+
+.ShopLink::before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0rem;
+  top: -5px;
+  right: -5px;
+  width: 5px;
+  height: calc(100% + 10px);
+  background-color: var(--primary-400);
+  z-index: 1;
+}
+
+.ShopLink__url {
+  color: #333;
+  text-decoration: underline;
+  color: var(--primary-800);
+  font-weight: var(--font-medium);
+  font-size: var(--font-lg);
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+@include breakpoint("sm") {
+  .ShopLink {
+    padding-right: var(--spacing-xl);
+  }
+}

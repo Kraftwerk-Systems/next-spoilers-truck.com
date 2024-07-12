@@ -76,6 +76,17 @@
       "mobile": "+36 20 315 6600",
       "email": "info@spoilers-truck.com",
       "facebook": "@ CarTradeKft"
+    },
+    "shopHighlight": {
+      "heading": "Online ",
+      "heading-bold": "Shop",
+      "lead": "Upgrade your truck's fuel economy, safety and appearance with our precision-manufactured spoilers.",
+      "lead-bold": "Visit our shop now and ",
+      "lead-bold-highlight": "start saving today!",
+      "image-alt": "The landing page of the Shop as a link to the Shop.",
+      "assortment-heading": "A Wide Assortment of ",
+      "assortment-heading-bold": "Top Brands",
+      "button-cta": "View Our Selection"
     }
   }
 }

@@ -20,6 +20,9 @@
 @import "../components/CookieManagementCard/CookieManagementCard.module.scss";
 @import "../components/CookiesBar/CookiesBar.module.scss";
 @import "../components/Button/Button.module.scss";
+@import "../components/Slick/Slick.module.scss";
+@import "../components/ShopLink/ShopLink.module.scss";
+@import "../components/BrandCard/BrandCard.module.scss";
 
 /* Import component styles */
 @import "components/_buttons.scss";
@@ -33,6 +36,7 @@
 
 /* Section styles */
 @import "../sections/HomeHero/HomeHero.module.scss";
+@import "../sections/HomeShopHighlight/HomeShopHighlight.module.scss";
 
 /* Page styles */
 @import "../app/[lang]/page.module.scss";

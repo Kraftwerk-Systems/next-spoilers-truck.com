@@ -1,0 +1,250 @@
+.Slick {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: var(--spacing-md) 4rem;
+  @include breakpoint("sm") {
+    padding: var(--spacing-md) 3rem;
+  }
+
+  position: relative;
+  z-index: 1;
+
+  &__Slider {
+    display: flex !important;
+    flex-direction: column !important;
+
+    & .slick-list {
+      flex: 1;
+    }
+  }
+
+  &__item {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-md) 0;
+  }
+
+  & .slick-dots {
+    height: 3.5rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    position: relative;
+    bottom: 0 !important;
+
+    & .Slick__dots {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: var(--spacing-md) !important;
+      margin-top: var(--spacing-md);
+
+      &--pure {
+        gap: var(--spacing-sm) !important;
+      }
+
+      & li {
+        width: 1.75rem !important;
+        height: 1.75rem !important;
+        border-radius: 50% !important;
+      }
+
+      & li.slick-active {
+        & .Slick__dot {
+          background-color: var(--primary-900);
+          //color: var(--grayscale-100);
+          color: transparent;
+          transition: all 0.2s ease-in-out;
+
+          @media (hover: hover) {
+            &:hover {
+              transition: all 0.2s ease-in-out;
+              background-color: var(--primary-800) !important;
+            }
+          }
+          &:active {
+            background-color: var(--primary-900) !important;
+            color: transparent !important;
+            scale: 1.2 !important;
+          }
+        }
+
+        & .Slick__dot--pure {
+          transition: all 0.2s ease-in-out;
+          &:active {
+            scale: 0.8 !important;
+          }
+        }
+      }
+    }
+  }
+
+  &__dot {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: var(--font-sm);
+    color: transparent;
+    font-weight: var(--font-bold);
+    background-color: var(--primary-100);
+    border: solid 1px var(--primary-400);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15) !important;
+
+    transition: all 0.2s ease-in-out; /* Define cubic bezier here */
+    z-index: 5 !important;
+
+    &--pure {
+      // scale: 0.5;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        transition: all 0.2s ease-in-out; /* Define cubic bezier here */
+        background-color: var(--primary-400) !important;
+        border-color: var(--primary-400) !important;
+        //box-shadow: var(--shadow-press-hover) !important;
+        scale: 1.2;
+      }
+
+      &--pure:hover {
+        scale: 1.2;
+      }
+    }
+
+    &:active {
+      transition: all 0.2s ease-in-out; /* Define cubic bezier here */
+      background-color: var(--secondary-200) !important;
+      color: transparent !important;
+      scale: 1.1;
+    }
+
+    &--pure:active {
+      scale: 0.95 !important;
+      background-color: var(--secondary-300) !important;
+    }
+  }
+
+  &__arrow {
+    top: calc(50%) !important;
+
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer;
+    font-size: var(--font-md) !important;
+    font-weight: var(--font-bold) !important;
+    background-color: transparent !important;
+    background-image: var(--button-neu-1) !important;
+    transition: all 0.2s ease-in-out; /* Define cubic bezier here */
+    z-index: 5 !important;
+
+    @media (hover: hover) {
+      &:hover {
+        transition: all 0.2s ease-in-out; /* Define cubic bezier here */
+        background-color: var(--grayscale-100) !important;
+        //  scale: 1.2;
+        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2) !important;
+      }
+    }
+
+    &:active {
+      transition: all 0.2s ease-in-out; /* Define cubic bezier here */
+      background-color: var(--secondary-300) !important;
+      box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2) !important;
+      scale: 1.2;
+    }
+
+    &::before {
+      font-family: sans-serif !important;
+      font-size: 3rem !important;
+      position: absolute !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -55%) !important;
+      text-align: center;
+      font-weight: var(--font-bold) !important;
+      //color: var(--grayscale-500) !important;
+      color: var(--primary-900) !important;
+    }
+
+    &--prev {
+      left: -2rem !important;
+
+      &::before {
+        content: "‹" !important;
+      }
+    }
+
+    &--next {
+      right: -2rem !important;
+
+      &::before {
+        content: "›" !important;
+      }
+    }
+  }
+
+  /*
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    */
+  /* Slick, All empty selectors */
+  & .slick-slider {
+    & .slick-list {
+      & .slick-track {
+      }
+      & .slick-active {
+      }
+      & .slick-current {
+      }
+    }
+  }
+  & {
+    .slick-list:focus {
+    }
+    .slick-list.dragging {
+    }
+    .slick-track:before,
+    .slick-track:after {
+    }
+    .slick-track:after {
+    }
+    .slick-loading .slick-track {
+    }
+    .slick-slide {
+    }
+    [dir="rtl"] .slick-slide {
+    }
+    .slick-slide img {
+    }
+    .slick-slide.slick-loading img {
+    }
+    .slick-slide.dragging img {
+    }
+    .slick-initialized .slick-slide {
+    }
+    .slick-loading .slick-slide {
+    }
+    .slick-vertical .slick-slide {
+    }
+    .slick-arrow.slick-hidden {
+    }
+  }
+}

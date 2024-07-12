@@ -1,0 +1,124 @@
+.BrandCard {
+  width: 12rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: var(--shadow-float-base);
+  background-position-y: -10rem;
+  position: relative;
+  background-color: var(--grayscale-0);
+  font-size: var(--font-lg);
+  color: var(--grayscale-700);
+  // user-select: none;
+
+  &::after {
+    transition: all 0.3s ease-in-out;
+    display: block;
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 75%;
+    height: 85%;
+    background-color: var(--primary-600);
+    z-index: -1;
+    border-radius: 3px;
+  }
+
+  &::before {
+    transition: all 0.3s ease-in-out;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    width: 75%;
+    height: 85%;
+    background-color: var(--primary-900);
+    z-index: -1;
+    border-radius: 3px;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      cursor: pointer;
+      color: var(--grayscale-1000);
+      text-decoration: none;
+      &::after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 100%;
+        height: 100%;
+        background-color: var(--primary-600);
+        z-index: -1;
+        border-radius: 3px;
+      }
+
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        right: -5px;
+        width: 100%;
+        height: 100%;
+        background-color: var(--primary-900);
+        z-index: -1;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  &:active {
+    &::after {
+      display: block;
+      content: "";
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      width: 100%;
+      height: 100%;
+      background-color: var(--primary-600);
+      z-index: -1;
+      border-radius: 3px;
+      color: var(--grayscale-1000);
+      text-decoration: none;
+    }
+
+    &::before {
+      display: block;
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      right: -3px;
+      width: 100%;
+      height: 100%;
+      background-color: var(--primary-900);
+      z-index: -1;
+      border-radius: 3px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .BrandCard {
+    width: 10rem;
+    height: 6.5rem;
+    font-size: calc(var(--font-md) * 1.1);
+  }
+}
+
+@media (max-width: 375px) {
+  .BrandCard {
+    width: 8rem;
+    height: 5.5rem;
+
+    font-size: calc(var(--font-md) * 1);
+  }
+}

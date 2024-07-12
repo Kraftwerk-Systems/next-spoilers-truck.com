@@ -76,6 +76,17 @@
       "mobile": "+36 20 315 6600",
       "email": "info@spoilers-truck.com",
       "facebook": "@ CarTradeKft"
+    },
+    "shopHighlight": {
+      "heading": "Online ",
+      "heading-bold": "Shop",
+      "lead": "Csökkentse kamionja üzemanyag-fogyasztását és növelje biztonságát és megjelenését precíziós spoilereinkkel.",
+      "lead-bold": "Látogasson el boltunkba most és kezdjen el ",
+      "lead-bold-highlight": "még ma megtakarítani!",
+      "image-alt": "A Shop kezdőoldala, mint link a Shopra.",
+      "assortment-heading": "Széles választék ",
+      "assortment-heading-bold": "Top Márkákból",
+      "button-cta": "Kínálat megtekintése"
     }
   }
 }

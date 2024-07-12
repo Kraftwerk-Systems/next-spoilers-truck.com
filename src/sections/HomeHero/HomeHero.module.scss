@@ -12,12 +12,7 @@
     min-height: 100vh;
     //   overflow-x: hidden;
 
-    background-image: linear-gradient(
-        to right,
-        rgba(3, 17, 23, 1) 0%,
-        rgba(3, 17, 23, 0) 50%,
-        rgba(3, 17, 23, 1) 100%
-      ),
+    background-image: linear-gradient(to right, rgba(3, 17, 23, 1) 0%, rgba(3, 17, 23, 0) 50%, rgba(3, 17, 23, 1) 100%),
       url("/img/bg/section-home-hero-bg.webp");
 
     background-position: 50% 0;
@@ -31,7 +26,7 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 
     scale: 0.95;
     transform: translate(-5%, 2.5%);
@@ -46,13 +41,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 
     &-top {
       display: flex;
       flex-direction: column;
-      justify-content: start;
-      align-items: end;
+      justify-content: flex-start;
+      align-items: flex-end;
       margin-top: 1.5rem;
       gap: var(--spacing-md);
     }
@@ -83,8 +78,8 @@
   &__contacts {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
     gap: calc(var(--spacing-md) * 1.5);
   }
   &__contact-group {
@@ -443,7 +438,7 @@
     }
     &__column-shop-top {
       width: 100%;
-      justify-content: start;
+      justify-content: flex-start;
       align-items: center;
     }
     &__group-cta {

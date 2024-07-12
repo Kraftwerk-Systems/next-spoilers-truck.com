@@ -1,0 +1,438 @@
+.HomeShopHighlight {
+  // Styles for HomeShopHighlight
+  display: flex;
+  width: 100%;
+  gap: 5vw;
+  padding-top: var(--spacing-6xl);
+
+  &__image-wrapper {
+    flex: 0 0 45vw;
+    display: flex;
+    position: relative;
+    max-height: 80rem;
+
+    @media (min-height: 1000px) {
+      max-height: 85rem;
+    }
+  }
+
+  &__image-container {
+    width: 100%;
+    height: 100%;
+    transform: skewY(-5deg);
+    overflow: hidden;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  &__image {
+    width: 110%;
+    height: 110%;
+    position: relative;
+    top: -5%;
+    object-fit: cover;
+    transform: skewY(5deg);
+  }
+
+  &__ornament {
+    // Base styles for HomeShopHighlight__ornament
+
+    &--1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(
+        180deg,
+        rgba(4, 21, 29, 0.5) 0%,
+        rgba(13, 86, 114, 0.1) 50%,
+        rgba(6, 32, 43, 0.5) 100%
+      );
+      transform: skewY(-5deg);
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+
+    &--2 {
+      // Modifier styles for HomeShopHighlight__ornament--2
+    }
+  }
+
+  &__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: var(--spacing-md);
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    gap: var(--spacing-sm);
+
+    max-width: 33rem;
+  }
+
+  &__heading {
+    color: var(--primary-900);
+    font-weight: var(--font-light);
+
+    &-bold {
+      font-weight: var(--font-bold);
+    }
+
+    .slash-group {
+      margin-right: var(--spacing-sm);
+    }
+  }
+
+  &__lead {
+    font-size: var(--font-lg);
+    color: var(--grayscale-700);
+    margin-top: var(--spacing-md);
+    line-height: 1.75;
+
+    &-bold {
+      font-size: var(--font-lg);
+      font-weight: var(--font-semibold);
+      color: var(--primary-900);
+      line-height: 1.5;
+      margin-top: var(--spacing-md);
+
+      &-highlight {
+        display: inline-block;
+        border-bottom: 2px solid var(--secondary-500);
+        border-radius: 2px;
+      }
+    }
+  }
+
+  &__link-group {
+    display: flex;
+    gap: var(--spacing-lg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing-lg);
+
+    margin-left: 5vw;
+    max-width: 30rem;
+  }
+
+  &__link-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    &-wrapper {
+      width: 30vw;
+      max-width: 30rem;
+      min-width: 22.5rem;
+      display: block;
+      overflow: hidden;
+      border-radius: 4px;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .ShopLink {
+    width: 110%;
+    // margin-left: 3rem;
+  }
+
+  &__assortment-heading {
+    color: var(--primary-900);
+    font-weight: var(--font-regular);
+    font-size: var(--font-xl);
+    margin-top: var(--spacing-lg);
+
+    &-bold {
+      font-weight: var(--font-bold);
+    }
+  }
+
+  &__assortment {
+    max-width: 50rem;
+
+    & .Slick__arrow {
+      &--prev {
+        left: -4rem !important;
+      }
+      &--next {
+        right: -4rem !important;
+      }
+    }
+  }
+
+  .slash-group {
+    margin-right: 0.75rem;
+
+    .thin-slash,
+    .thick-slash {
+      font-size: var(--font-4xl);
+    }
+    .thick-slash {
+      margin-left: -3px;
+    }
+  }
+  &__assortment-group {
+    .thin-slash,
+    .thick-slash {
+      font-size: var(--font-2xl) !important;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.75rem !important;
+    padding: 0.5rem !important;
+    border-radius: 1px !important;
+    background-color: var(--secondary-400) !important;
+    color: var(--primary-1000);
+    font-size: var(--font-lg);
+    font-weight: var(--font-medium);
+    transition: all 0.3s ease-in-out;
+    width: 15rem !important;
+    min-width: 15rem !important;
+    text-transform: uppercase;
+
+    @media (hover: hover) {
+      &:hover {
+        cursor: pointer;
+        background-color: var(--secondary-300) !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .HomeShopHighlight {
+    &__image-wrapper {
+      flex: 0 0 40vw;
+    }
+  }
+}
+
+@media (max-width: 1550px) {
+  .HomeShopHighlight {
+    &__assortment {
+      max-width: 40rem;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .HomeShopHighlight {
+    &__assortment {
+      max-width: 37rem;
+    }
+  }
+}
+
+@media (max-width: 1300px) and (min-height: 701px) {
+  .HomeShopHighlight {
+    &__assortment {
+      scale: 0.9;
+      max-width: 35rem;
+      transform: translate(-5%, -5%);
+      margin-bottom: -1rem;
+    }
+  }
+}
+
+@media (min-width: 950px) and (max-height: 700px) {
+  .HomeShopHighlight {
+    padding-top: calc(var(--spacing-5xl) * 0.85);
+    &__image-wrapper {
+      max-height: 70rem;
+      flex: 0 0 45vw;
+      @media (max-width: 1250px) {
+        flex: 0 0 40vw;
+      }
+      @media (max-width: 1050px) {
+        flex: 0 0 37vw;
+      }
+    }
+    &__title {
+      scale: 0.9;
+      transform: translate(-5%, -10%);
+      margin-bottom: -5rem;
+    }
+    &__link-group {
+      scale: 0.9;
+      transform: translate(-5%, 0%);
+    }
+    &__assortment-group {
+      scale: 0.9;
+      transform: translate(-5%, -10%);
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .HomeShopHighlight {
+    gap: 7vw;
+    &__image-wrapper {
+      flex: 0 0 35vw;
+    }
+    &__content {
+    }
+    &__title {
+    }
+
+    &__lead {
+      font-size: calc(var(--font-md) * 1.1);
+      max-width: 27rem;
+    }
+    &__link-group {
+    }
+
+    &__assortment {
+      max-width: 30rem;
+
+      .Slick__arrow {
+        scale: 0.8;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .HomeShopHighlight {
+    gap: 4vw;
+    &__assortment-heading {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--spacing-sm);
+      justify-content: center;
+      line-height: 1.25;
+
+      .slash-group {
+        display: block;
+        .thick-slash,
+        .thin-slash {
+          font-size: var(--font-3xl) !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeShopHighlight {
+    gap: 5vw;
+    &__image-wrapper {
+      flex: 0 0 30vw;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeShopHighlight {
+    gap: 0;
+    &__image-wrapper {
+      display: none;
+    }
+    &__content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: var(--spacing-lg);
+    }
+    &__title {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--spacing-sm);
+      text-align: center;
+    }
+    &__link-group {
+      margin-left: 0;
+      margin-top: var(--spacing-lg);
+    }
+    &__assortment-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__assortment {
+      transform: none;
+      max-width: 35rem;
+    }
+    &__assortment-heading {
+      text-align: center;
+    }
+    &__button {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .HomeShopHighlight {
+    padding-top: var(--spacing-5xl);
+    &__heading {
+      font-size: calc(var(--font-3xl) * 1.05);
+      .slash-group {
+        display: block;
+        .thick-slash,
+        .thin-slash {
+          font-size: var(--font-4xl) !important;
+        }
+      }
+    }
+    &__assortment {
+      max-width: 30rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .HomeShopHighlight {
+    &__assortment {
+      max-width: 28rem;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .HomeShopHighlight {
+    padding: var(--spacing-5xl) var(--spacing-md) var(--spacing-xl);
+    .ShopLink {
+      width: 100%;
+      // margin-left: 3rem;
+    }
+    &__link-image-wrapper {
+      width: 85vw;
+      min-width: 15rem;
+      max-width: 22rem;
+    }
+    &__assortment-group {
+      margin-top: var(--spacing-lg);
+    }
+    &__assortment {
+      max-width: calc(100vw - 2 * var(--spacing-md));
+
+      .Slick {
+        padding: var(--spacing-md) 0;
+      }
+    }
+    &__button {
+      margin-top: 1rem;
+    }
+  }
+}
