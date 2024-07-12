@@ -5,8 +5,11 @@ import LanguageSelector from "../LanguageSelector/LanguageSelector";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import Image from "next/image";
+
 import enSvg from "@/assets/icons/en.svg";
 import huSvg from "@/assets/icons/hu.svg";
+import deSvg from "@/assets/icons/de.svg";
+
 import logo from "@/../public/img/logo/logo-title.png";
 import { useRouter, usePathname } from "@/navigation";
 import ContactBar from "@/components/ContactBar/ContactBar";
@@ -225,6 +228,15 @@ export default function Header({ locale }: { locale: string }) {
             >
               <span className="Header__language-link">{t(`header.language.hu`)}</span>
               <Image src={huSvg} className="Header__language-icon" width={24} height={24} alt="hu" />
+            </li>
+
+            <li
+              onClick={() => changeLanguage("de")}
+              key={"de"}
+              className={`Header__language-item ${isActiveLanguage("de") ? "Header__language-item--active" : ""}`}
+            >
+              <span className="Header__language-link">{t(`header.language.de`)}</span>
+              <Image src={deSvg} className="Header__language-icon" width={24} height={24} alt="de" />
             </li>
           </ul>
         </nav>
