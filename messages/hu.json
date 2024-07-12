@@ -66,6 +66,28 @@
     "highlightsCarousel": {
       "view-in-shop": "Megtekingés ",
       "now": "a Shopban"
+    },
+    "advantageList": {
+      "1": {
+        "title": "Aerodinamika",
+        "subtitle": "A javított légáramlás csökkenti az ellenállást és a turbulenciát."
+      },
+      "2": {
+        "title": "Stabilitás",
+        "subtitle": "A spoilerek növelik az útstabilitást, különösen nagyobb sebességeknél."
+      },
+      "3": {
+        "title": "Hatékonyság",
+        "subtitle": "A jobb aerodinamika alacsonyabb üzemanyag-fogyasztást eredményez."
+      },
+      "4": {
+        "title": "Biztonság",
+        "subtitle": "A spoilerek javíthatják a kezelhetőséget és csökkenthetik a felborulás kockázatát."
+      },
+      "5": {
+        "title": "Esztétika",
+        "subtitle": "A spoiler egyedi, stílusos megjelenést kölcsönöz a teherautónak."
+      }
     }
   },
   "home": {
@@ -110,6 +132,22 @@
       "lead-1": "Nézze meg, mit vásárolnak mások.",
       "lead-2": "Merítsen inspirációt a ",
       "lead-bold": "legnépszerűbb termékeinkből."
+    },
+    "advantages": {
+      "HomeAdvantages__subtitle": "Egy spoiler több, mint spórolás",
+      "HomeAdvantages__title": {
+        "1": "Maximalizálja",
+        "2": "a hatékonyságot"
+      },
+      "HomeAdvantages__description": {
+        "1": "Vezessen",
+        "2": "okosabban, biztonságosabban és olcsóbban",
+        "3": "saját teherautó-spoilerével."
+      },
+      "HomeAdvantages__button": {
+        "1": "ROI Kiszámítása",
+        "2": " most"
+      }
     }
   },
   "notFound": {

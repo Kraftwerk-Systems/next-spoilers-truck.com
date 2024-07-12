@@ -1,3 +1,4 @@
+import HomeAdvantages from "@/sections/HomeAdvantages/HomeAdvantages";
 import HomeHero from "@/sections/HomeHero/HomeHero";
 import HomeProductHighlight from "@/sections/HomeProductHighlight/HomeProductHighlight";
 import HomeShopHighlight from "@/sections/HomeShopHighlight/HomeShopHighlight";
@@ -11,6 +12,7 @@ export default async function Index() {
       <HomeHero />
       <HomeShopHighlight locale={locale} />
       <HomeProductHighlight />
+      <HomeAdvantages />
     </main>
   );
 }

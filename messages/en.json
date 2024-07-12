@@ -66,6 +66,28 @@
     "highlightsCarousel": {
       "view-in-shop": "View in shop ",
       "now": "now"
+    },
+    "advantageList": {
+      "1": {
+        "title": "Aerodynamics",
+        "subtitle": "Improved airflow reduces drag and turbulance."
+      },
+      "2": {
+        "title": "Stability",
+        "subtitle": "Spoilers enhance road stability, especially at higher speeds."
+      },
+      "3": {
+        "title": "Efficiency",
+        "subtitle": "Better aerodynamics lead to lower fuel consumption."
+      },
+      "4": {
+        "title": "Safety",
+        "subtitle": "Spoilers can improve handling and reduce the risk of rollovers."
+      },
+      "5": {
+        "title": "Aesthetics",
+        "subtitle": "The spoiler creates a customized, stylish look for your truck."
+      }
     }
   },
   "home": {
@@ -110,6 +132,22 @@
       "lead-1": "See what other customers are buying.",
       "lead-2": "Get inspired by our ",
       "lead-bold": "top products."
+    },
+    "advantages": {
+      "HomeAdvantages__subtitle": "It’s not only about saving money",
+      "HomeAdvantages__title": {
+        "1": "Maximize",
+        "2": "Your Truck’s Efficiency"
+      },
+      "HomeAdvantages__description": {
+        "1": "Drive",
+        "2": "smarter, safer and cheaper",
+        "3": "with your own spoiler."
+      },
+      "HomeAdvantages__button": {
+        "1": "CALCULATE ROI",
+        "2": "NOW"
+      }
     }
   },
   "notFound": {

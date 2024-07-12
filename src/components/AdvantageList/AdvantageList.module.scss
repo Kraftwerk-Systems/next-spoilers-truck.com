@@ -1,0 +1,34 @@
+.AdvantageList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .Slick--AdvantageList {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .Slick {
+    max-width: 100rem;
+  }
+
+  @media (max-width: 900px) {
+    .Slick {
+      width: 90%;
+    }
+  }
+  @media (max-width: 650px) {
+    .Slick {
+      max-width: 25rem;
+    }
+  }
+  @include breakpoint("sm") {
+    .Slick {
+      width: 90%;
+    }
+  }
+  @media (max-width: 375px) {
+    .Slick {
+      width: 95vw;
+    }
+  }
+}
