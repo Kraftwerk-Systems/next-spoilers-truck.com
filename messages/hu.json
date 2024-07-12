@@ -88,6 +88,40 @@
         "title": "Esztétika",
         "subtitle": "A spoiler egyedi, stílusos megjelenést kölcsönöz a teherautónak."
       }
+    },
+    "ROICalculator": {
+      "title": "Megtérülés-kalkulátor",
+      "categories": {
+        "3dot5t": "3,5 tonnás furgon",
+        "7dot5t": "7,5 tonnás teherautó",
+        "12t": "12 tonnás teherautó",
+        "18t": "18 tonnás teherautó",
+        "26t": "26 tonnás teherautó",
+        "32t": "32 tonnás teherautó",
+        "40t": "40 tonnás teherautó"
+      },
+      "label": {
+        "truck": "Teherautó kategória",
+        "mileage": "Éves futásteljesítmény kilométerben",
+        "fuelConsumption": "Átlagos fogyasztás liter/100km-ben",
+        "currency": "Pénznem",
+        "litrePrice": "Üzemanyagár literenként (Nettó)"
+      },
+      "results": {
+        "spoilerPrice": "Tipikus spoiler ár:",
+        "fuelSavings": "Tipikus üzemanyag-megtakarítás:",
+        "payback": "Becsült megtérülési idő:",
+        "year": "év",
+        "years": "év",
+        "month": "hónap",
+        "months": "hónap",
+        "day": "nap",
+        "days": "nap",
+        "estimated": "Becsült ",
+        "savings": "megtakarítás ",
+        "over5": "5 év alatt:",
+        "inflation": "5% éves inflációval számolva"
+      }
     }
   },
   "home": {
@@ -147,6 +181,19 @@
       "HomeAdvantages__button": {
         "1": "ROI Kiszámítása",
         "2": " most"
+      }
+    },
+    "roi": {
+      "HomeROI__subtitle": "Számítsa ki várható megtakarításait azonnal",
+      "HomeROI__title": {
+        "1": "Számítsa ki ",
+        "2": "befektetése megtérülését"
+      },
+      "HomeROI__description": "Számítsa ki néhány másodperc alatt a teherautó spoilerrel elérhető üzemanyagmegtakarítását. Egyszerűen adja meg teherautója kategóriáját és vezetési szokásait, és azonnal láthatja a várható megtérülési időt és pénzmegtakarítást.",
+      "HomeROI__button": "IRÁNY A SHOP",
+      "HomeROI__cta": {
+        "1": "Felkeltettük érdeklődését?",
+        "2": "Látogassonk el online spoiler shopunkba és találja meg az Ön spoilerét mindössze 2 perc alatt!"
       }
     }
   },

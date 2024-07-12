@@ -1,0 +1,60 @@
+const truckCategories = [
+  {
+    id: "1",
+    name: "3dot5t",
+    averageConsumption: 12,
+    typicalSpoilerPrice: 390,
+    typicalYearlyMileage: 50000,
+    typicalSpoilerFuelSavingsPercentage: 12,
+  },
+  {
+    id: "2",
+    name: "7dot5t",
+    averageConsumption: 18,
+    typicalSpoilerPrice: 490,
+    typicalYearlyMileage: 70000,
+    typicalSpoilerFuelSavingsPercentage: 12,
+  },
+  {
+    id: "3",
+    name: "12t",
+    averageConsumption: 25,
+    typicalSpoilerPrice: 690,
+    typicalYearlyMileage: 70000,
+    typicalSpoilerFuelSavingsPercentage: 12,
+  },
+  {
+    id: "4",
+    name: "18t",
+    averageConsumption: 30,
+    typicalSpoilerPrice: 790,
+    typicalYearlyMileage: 70000,
+    typicalSpoilerFuelSavingsPercentage: 12,
+  },
+  {
+    id: "5",
+    name: "26t",
+    averageConsumption: 30,
+    typicalSpoilerPrice: 790,
+    typicalYearlyMileage: 85000,
+    typicalSpoilerFuelSavingsPercentage: 12,
+  },
+  {
+    id: "6",
+    name: "32t",
+    averageConsumption: 30,
+    typicalSpoilerPrice: 790,
+    typicalYearlyMileage: 85000,
+    typicalSpoilerFuelSavingsPercentage: 12,
+  },
+  {
+    id: "7",
+    name: "40t",
+    averageConsumption: 35,
+    typicalSpoilerPrice: 990,
+    typicalYearlyMileage: 120000,
+    typicalSpoilerFuelSavingsPercentage: 12,
+  },
+];
+
+export default truckCategories;

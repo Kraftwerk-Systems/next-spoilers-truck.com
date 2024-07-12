@@ -88,6 +88,40 @@
         "title": "Aesthetics",
         "subtitle": "The spoiler creates a customized, stylish look for your truck."
       }
+    },
+    "ROICalculator": {
+      "title": "ROI Calculator",
+      "categories": {
+        "3dot5t": "3.5 Tonne Van",
+        "7dot5t": "7.5 Tonne Truck",
+        "12t": "12 Tonne Truck",
+        "18t": "18 Tonne Truck",
+        "26t": "26 Tonne Truck",
+        "32t": "32 Tonne Truck",
+        "40t": "40 Tonne Truck"
+      },
+      "label": {
+        "truck": "Truck Category",
+        "mileage": "Yearly Mileage in Kilometres",
+        "fuelConsumption": "Average Consumption in Litres/100km",
+        "currency": "Currency",
+        "litrePrice": "Fuel Price Per Litre (Net)"
+      },
+      "results": {
+        "spoilerPrice": "Typical Spoiler Price:",
+        "fuelSavings": "Typical Fuel Savings:",
+        "payback": "Estimated payback period:",
+        "year": "year",
+        "years": "years",
+        "month": "month",
+        "months": "months",
+        "day": "day",
+        "days": "days",
+        "estimated": "Estimated ",
+        "savings": "savings ",
+        "over5": "over 5 years:",
+        "inflation": "Calculated with 5% annual inflation."
+      }
     }
   },
   "home": {
@@ -147,6 +181,19 @@
       "HomeAdvantages__button": {
         "1": "CALCULATE ROI",
         "2": "NOW"
+      }
+    },
+    "roi": {
+      "HomeROI__subtitle": "Predict Your Savings In 20 seconds",
+      "HomeROI__title": {
+        "1": "Calculate Your",
+        "2": "Return On Investment"
+      },
+      "HomeROI__description": "Discover how much you can save on fuel costs with our spoilers. Just input your truck's details and driving habits to see your potential ROI.",
+      "HomeROI__button": "TO THE SHOP",
+      "HomeROI__cta": {
+        "1": "Interested?",
+        "2": "Head to the shop and find your spoiler in 3 minutes!"
       }
     }
   },
