@@ -10,7 +10,7 @@ import ButtonLink from "@/components/ButtonLink/ButtonLink";
 export default function HomeHero() {
   const t = useTranslations("home");
 
-  const shopUrl = "/shop";
+  const shopUrl = process.env.SHOP_URL;
 
   const scrollTo = (id: string) => {
     const roiSection = document.getElementById(id);

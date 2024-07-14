@@ -14,7 +14,7 @@ const netFuelPricePerLitre = 1.5; // This is just a placeholder value
 export default async function HomeROI({ locale }: { locale: string }) {
   const t = await getTranslations("home");
 
-  const shopUrl = "/shop";
+  const shopUrl = process.env.SHOP_URL;
 
   return (
     <section className="HomeROI">

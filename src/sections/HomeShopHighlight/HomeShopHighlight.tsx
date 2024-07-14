@@ -13,7 +13,7 @@ import { getTranslations } from "next-intl/server";
 export default async function HomeShopHighlight({ locale }: { locale: string }) {
   const t = await getTranslations("home");
 
-  const shopUrl = "/shop";
+  const shopUrl = process.env.SHOP_URL;
 
   return (
     <section className="HomeShopHighlight" id="shop-highlights">

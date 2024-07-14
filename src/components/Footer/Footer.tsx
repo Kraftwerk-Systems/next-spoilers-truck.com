@@ -15,7 +15,7 @@ import heart from "@/assets/icons/heart.svg";
 export default async function Footer() {
   const t = await getTranslations("common");
 
-  const shopUrl = "/shop";
+  const shopUrl = process.env.SHOP_URL;
 
   return (
     <footer className="Footer">
